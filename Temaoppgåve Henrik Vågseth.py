@@ -35,37 +35,59 @@ navn()
 
 #Oppgåve 2
 
-#2a)
+#2a) (Ta vekk docstrings for å kjøre programmet)
 
-"""
-def valuta_kalkulator(sum_kroner):
-    dollar_kurs = 11.62
-    euro_kurs = 10.2
-    
-    sum_euro = sum_kroner / euro_kurs
-    sum_dollar = sum_kroner / dollar_kurs
+#Definerer ein funksjon, brukar "float" funksjonen for å få med desimaltal, brukar "input" funskjonen for å skrive inn beløp
+#Gjør de ulike regnestykkene med bruk av variabler, printer ut svaret med to desimaler og kjører den definerte funksjonen
 
-    return euro_kurs, dollar_kurs
-
-    
-
-
-sum_kroner = float(input("Skriv beløpet i norske kroner"))
-sum_euro, sum_dollar = valuta_kalkulator(sum_kroner)
-
-print(f"{sum_kroner:.2f} NOK er same som {sum_euro:.2f} Euro eller {sum_dollar:2f} dollar")
 
 """
 
-def valuta_kalkulator():
-    norske_kroner = float(input("Skriv inn beløp i norske kroner: ")) #Ber
+def valuta_kalkulator(): 
+    norske_kroner = float(input("Skriv inn beløp i norske kroner: ")) 
     dollarkurs = 11.62
     eurokurs = 10.2
 
-    euro_belop = norske_kroner / eurokurs
-    dollar_belop = norske_kroner / dollarkurs
+    euro = norske_kroner / eurokurs
+    dollar = norske_kroner / dollarkurs
 
-    print(f"{norske_kroner:.2f} norske kroner tilsvarer {euro_belop:.2f} Euro og {dollar_belop:.2f} Dollar")
+    print(f"{norske_kroner:.2f} norske kroner tilsvarer {euro:.2f} Euro og {dollar:.2f} Dollar")
 
-if __name__ == "__main__":
-    main()
+
+
+
+
+
+valuta_kalkulator()
+
+"""
+    
+
+#Oppgåve 2
+
+#2b) (Ta vekk docstrings for å kjøre programmet)
+
+#Samme kode som tidlegare men la til spesialtegna "$" og "€" for finare utskrift. 
+
+
+"""
+
+def valuta_kalkulator(): 
+    norske_kroner = float(input("Skriv inn beløp i norske kroner: ")) 
+    dollarkurs = 11.62
+    eurokurs = 10.2 
+
+    euro = norske_kroner / eurokurs
+    dollar = norske_kroner / dollarkurs
+
+    print(f"{norske_kroner:.2f} norske kroner tilsvarer {euro:.2f}\N{euro sign} og {dollar:.2f}\N{dollar sign}")
+
+
+
+
+
+
+valuta_kalkulator()
+
+
+"""

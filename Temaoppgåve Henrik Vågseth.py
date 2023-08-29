@@ -19,11 +19,12 @@ print(Fornavn + Etternavn)
 
 #Lagar ein funksjon som skriv ut navnet mitt ved hjelp av "print"
 
+"""
 Fornavn = "Henrik\n"
 
 Etternavn = "Vågseth"
 
-"""
+
 
 def navn():
     print(Fornavn + Etternavn)

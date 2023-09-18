@@ -36,7 +36,7 @@ radius_sirkel()
 
 # Fjern docstrings for å kjøre programmet :)
 
-""""
+"""
 def bokstav_gjetter():
     setning = input("Skriv ei tilfeldig setning: ")
     gjetting = int(input("Gjett lengda: "))

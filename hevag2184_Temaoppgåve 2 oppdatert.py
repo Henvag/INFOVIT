@@ -28,26 +28,29 @@ radius_sirkel()
 
 # Definerer ein funksjon, lagar variabel som spør brukaren skrive inn ei setning,
 # Lagar variabel som spør brukaren gjette lengda ved bruk av heiltal
+
+# Lagar variabel som fjerner mellomrom fra "input" setninga før lengda blir returnert
 # Lagar variabel som brukar "len" funskjonen som returnerer lengda i setninga
 
 # Samanliknar den riktige lengda med det brukaren gjettar og skriv ut om dette er riktig eller feil, kjører funksjonen
 
 # Fjern docstrings for å kjøre programmet :)
 
-"""
-
+""""
 def bokstav_gjetter():
     setning = input("Skriv ei tilfeldig setning: ")
     gjetting = int(input("Gjett lengda: "))
 
-    riktig_lengde = len(setning)
+    setning_uten_mellomrom = setning.replace(" ", "")
+
+    riktig_lengde = len(setning_uten_mellomrom)
     print(f"That's {riktig_lengde == gjetting}!!")
 
 
 bokstav_gjetter()
 
-
 """
+
 # Oppgåve 3
 
 # Importerer "random" modulen , definerer ein funksjon, lagar variabel som spør brukaren skrive inn eit heiltal

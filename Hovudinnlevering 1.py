@@ -87,5 +87,291 @@ print(temperaturKonvertering(34))
 
 #Oppgåve 3
 
-#3a)
+#3a) 
 
+#Lagar to globale variablar for "saldo" og "rentesats"
+
+#Lagar funksjon for "innskudd" med argumentet "beløp", deretter "global saldo" for å vise at variabelen er global, legger til verdien for beløp til saldo
+
+#Lagar funksjon for "uttak" med argumentet "beløp", deretter "global saldo" for å vise at variabelen er global, lagar "if" setning som seier at vist saldoen etter uttakk er større eller lik null kjør funksjonen, lagar "else" setning som printer "Overtrekk" om  tidlegare setning ikkje er sann
+
+#Lagar funksjon for "beregn_rente", gangar "saldo" med "rentesats" og returnerer verdien
+
+#Lagar funksjon for "renteoppgjør", deretter "global saldo, rentesats" for å vise at variabelen er global, kaller "beregn_rente" funksjonen og lagrer resulatet i variabelen "rente", legger til renta til saldoen,
+#lagar "if setning" som sjekkar om saldoen er større enn 1 million, printer "Gratulerer du har bonusrente" om det er tilfelle og setter "rentesats" til 0.02, lagar "else" setning som printer "Du har når ordinær rente" om saldo er under 1 million og setter "rentesats" til 0.01
+
+
+#Nederst er eksemplar på bruken av dei ulike funksjonane
+
+#Fjern docstrings for å kjøre programmet
+
+
+"""
+
+saldo = 500 
+
+rentesats = 0.01
+
+
+def innskudd(beløp):
+    global saldo
+    saldo += beløp
+
+def uttak(beløp):
+    global saldo
+    if saldo - beløp >= 0:
+        saldo -= beløp
+    else:
+        print("Overtrekk.")
+
+def beregn_rente():
+    return saldo * rentesats 
+
+def renteoppgjør():
+    global saldo, rentesats
+    rente = beregn_rente()
+    saldo += rente
+    if saldo > 1000000:
+        print("Gratulerer, du får bonusrente!")
+        rentesats = 0.02
+    else:
+        print("Du har nå ordinær rente.")
+        rentesats = 0.01
+
+
+
+
+
+# Eksempel på bruk
+print(saldo)
+print(rentesats)
+
+innskudd(300)
+print(saldo)
+
+uttak(100)
+print(saldo)
+
+rente = beregn_rente()
+print(rente)
+
+print(saldo)
+
+renteoppgjør()
+print(saldo)
+
+
+innskudd(1000000)
+print("Gratulerer, du får bonusrente!")
+print(saldo)
+print(rentesats)
+
+uttak(500000)
+print("Du har nå ordinær rente.")
+print(saldo)
+print(rentesats)
+
+uttak(1000000)
+print("Overtrekk.")
+print(saldo)
+   
+    
+"""
+
+
+    
+#3b)
+
+#Samme koden som i oppgåve "3a)" men med implementert brukargrensesnitt. Lagt til "input" av heiltal i "innskudd" og "uttak" funksjonane. Også lagt til at det printast "Ikkje dekning" om du skriv inn for stort beløp i "uttak"
+
+#Laga ny funksjon med navnet "vis_saldo" som viser saldoen i terminalen
+
+#Laga ny funksjon med navnet "velg" som fungera som brukargrensesnittet. Dei ulike funksjonane får ulike tal som du kan skrive inn i terminalen.
+
+#Fjern docstrings for å kjøre programmet
+
+"""
+
+
+saldo = 500
+rentesats = 0.01
+
+def vis_saldo():
+    print("Saldo:", saldo)
+
+def innskudd():
+    global saldo
+    beløp = float(input("Beløp: "))
+    saldo += beløp
+
+def uttak():
+    global saldo
+    beløp = float(input("Beløp: "))
+    if saldo - beløp >= 0:
+        saldo -= beløp
+    else:
+        print("Ikkje dekning.")
+    vis_saldo()
+
+def renteoppgjør():
+    global saldo, rentesats
+    rente = saldo * rentesats
+    saldo += rente
+    if saldo > 1000000:
+        print("Gratulerer, du får bonusrente!")
+        rentesats = 0.02
+    else:
+        print("Du har nå ordinær rente.")
+        rentesats = 0.01
+    vis_saldo()
+
+def velg():
+    while True:
+        print("\n------------------------")
+        print("1 - vis saldo")
+        print("2 - innskudd")
+        print("3 - uttak")
+        print("4 - renteoppgjør")
+        print("------------------------")
+        valg = input("Velg handling: ")
+        
+        if valg == '1':
+            vis_saldo()
+        elif valg == '2':
+            innskudd()
+        elif valg == '3':
+            uttak()
+        elif valg == '4':
+            renteoppgjør()
+        else:
+            print("Ugyldig valg. Prøv igjen.")
+
+
+# Test av grensesnittet i ein "while" loop
+while True:
+    velg()
+
+
+"""
+
+
+
+#3c)
+
+#Samme koden som i oppgåve 3b) men implementert eit valg i grensesnittet som viser dei tre siste endringane i saldoen. Dette blir gjort ved hjelp av ei liste og "append" metoden som lagrar endringane som ei tekststreng. 
+
+#Funksjonen "siste_endringer" skriv ut dei tre siste saldo endringane i "endringar" lista
+
+#Fjern docstrings for å kjøre programmet
+
+
+"""
+
+
+saldo = 500
+rentesats = 0.01
+endringar = []  # Ei liste for å holde oversikt over endringane i saldoen
+
+def vis_saldo():
+    print("Saldo:", saldo)
+
+def innskudd():
+    global saldo
+    beløp = float(input("Beløp: "))
+    saldo += beløp
+    endringar.append(f"+{beløp}")  # Legg til innskudd som en endring
+
+def uttak():
+    global saldo
+    beløp = float(input("Beløp: "))
+    if saldo - beløp >= 0:
+        saldo -= beløp
+        endringar.append(f"-{beløp}")  # Legg til uttak som en endring
+    else:
+        print("Ikkje dekning.")
+    vis_saldo()
+
+def renteoppgjør():
+    global saldo, rentesats
+    rente = saldo * rentesats
+    saldo += rente
+    if saldo > 1000000:
+        print("Gratulerer, du får bonusrente!")
+        rentesats = 0.02
+    else:
+        print("Du har nå ordinær rente.")
+        rentesats = 0.01
+    endringar.append(f"+{rente}")  # Legg til renteoppgjør som en endring
+
+def siste_endringer():
+    print("\nSiste endringar:")
+    for endring in endringar[-3:]:
+        print(endring)
+
+def velg():
+    while True:
+        print("\n------------------------")
+        print("1 - vis saldo")
+        print("2 - innskudd")
+        print("3 - uttak")
+        print("4 - renteoppgjør")
+        print("5 - siste endringar")
+        print("------------------------")
+        valg = input("Velg handling: ")
+        
+        if valg == '1':
+            vis_saldo()
+        elif valg == '2':
+            innskudd()
+        elif valg == '3':
+            uttak()
+        elif valg == '4':
+            renteoppgjør()
+        elif valg == '5':
+            siste_endringer()
+        else:
+            print("Ugyldig valg. Prøv igjen.")
+
+# Test av grensesnittet i ein "while" loop
+while True:
+    velg()
+
+
+"""
+
+
+#Oppgåve 4
+
+#Importerer "random" modulen slik eg kan lage tilfeldige siffer
+
+#Lagar funksjon som heiter "tre_tilfeldige", lagar variabelen "siffer" tre tilfeldige tal blir lagra i ei liste, "siffer.sort" er ein metode som sorterer sifra i stigande rekkjefølge, 
+#lagar variabel som kombinerar dei sorterte sifra i lista til eit heiltal. Dette blir gjort ved bruk av "map" funksjonen som konverterer kvart siffer i lista til ei streng og ".join" for å slå saman strengene
+#"Resultat" blir returnert til slutt
+
+#Fjern docstring for å kjøre programmet
+
+
+"""
+
+import random
+
+def tre_tilfeldige():
+    
+    siffer = [random.randint(1, 9) for _ in range(3)]
+    
+  
+    siffer.sort()
+    
+    resultat = int(''.join(map(str, siffer)))
+    
+    return resultat
+
+# Testing av funksjonen
+print(tre_tilfeldige())
+print(tre_tilfeldige())
+print(tre_tilfeldige())
+print(tre_tilfeldige())
+print(tre_tilfeldige())
+
+
+"""

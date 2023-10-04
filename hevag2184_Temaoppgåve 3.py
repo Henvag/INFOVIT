@@ -88,19 +88,73 @@ multiplikasjonstabell(4)
 
 #Oppgåve 2
 
-def fakultet_while(n):
+# 2a) og 2b)
+
+
+#For løkka oppbygd på følgjande måte:
+
+#Lagar funksjonen "fakultet_while" med "n" som argument
+
+#Lagar "if" setning som sjekkar om "n" er mindre enn 0 eller er ikkje eit heiltal ved hjelp av "isInstance" funksjonen (https://www.w3schools.com/python/ref_func_isinstance.asp)
+#Om noko av dette er "True" blir det returnert ein feilmelding
+
+#Lagar "elif" setning som seier at vist "n" er det same som 0 skal 1 blir returnert
+
+#Reikninga av fakultet startar ved å bruke variabelen "resultat"
+
+#Ei "for" løkke reknar resultatet med å multiplisere kvart tal fra 1 til "n"
+#"Resultat" bir returnert til slutt
+
+
+#While løkka oppbygd på følgjande måte:
+
+#Lagar funksjonen "fakultet_while" med "n" som argument
+
+#Lagar "if" setning som sjekkar om "n" er mindre enn 0 eller er ikkje eit heiltal ved hjelp av "isInstance" funksjonen (https://www.w3schools.com/python/ref_func_isinstance.asp)
+#Om noko av dette er "True" blir det returnert ein feilmelding
+
+#Lagar "elif" setning som seier at vist "n" er det same som 0 skal 1 blir returnert
+
+#Reikninga av fakultet startar ved å bruke variabelen "resultat"
+
+#Variabelen "i" brukes for å iterere mellom 1 til "n"
+
+#Ei while løkke kjøre om "i" er mindre eller er lik "n". Variabelen "resultat" blir multiplisert med alle heiltallene frå 1 til "n"
+#"Resultat" blir returnert til slutt
+
+
+"""
+
+
+
+
+#For løkke
+
+def fakultet_for(n):
     if n < 0 or not isinstance(n, int):
         return f"Fakultetet av {n} er ikke definert."
     elif n == 0:
         return 1
     
+    resultat = 1
+    for i in range(1, n + 1):
+        resultat *= i
+    return resultat
+
+print(fakultet_for(1))    
+print(fakultet_for(-3.14159))
+
+"""
 
 
+#While løkke
 
-    def fakultet_while(n):
-      if n < 0 or not isinstance(n, int):
+"""
+
+def fakultet_while(n):
+    if n < 0 or not isinstance(n, int):
         return f"Fakultetet av {n} er ikke definert."
-      elif n == 0:
+    elif n == 0:
         return 1
     
     resultat = 1
@@ -109,3 +163,6 @@ def fakultet_while(n):
         resultat *= i
         i += 1
     return resultat
+
+
+"""

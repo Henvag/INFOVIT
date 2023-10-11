@@ -25,16 +25,20 @@ class Bil: #(Oppgåve 1.1) Lagar klassen
 
 
 
-    def __init__(self, merke, modell, år, nåværende_år, eigar): #(Oppgåve 1.2)Metode som initiaiserer objekta ved hjelp av ein "constructor"
+    def __init__(self, merke, modell, år, nåværende_år, eier): #(Oppgåve 1.2)Metode som initiaiserer objekta ved hjelp av ein "constructor"
         self.merke = str(merke)
         self.modell = str(modell)
         self.år = int(år)
         self.nåværende_år = int(nåværende_år) #(Oppgåve 1.3) Standardverdi for alder metoden
-        self.eiger #(Oppgåve 6.1) Atributt som inneheld
+        self.eier = None #(Oppgåve 6.1) Nytt attributt i bil klassen
         
    
     def skriv_ut_info(self): #(Oppgåve 1.2)Metode som skriv ut informasjon om bilen
         print("Merke: " + self.merke, "Modell: " + self.modell, "År: " + str(self.år))
+        if self.eier is not None: #(Oppgåve 6.3) Skriv ut info om eiger vist den har en
+            print("Eier: Navn: " + self.eier.navn + ", Adresse: " + self.eier.adresse)
+
+            
 
 
     def alder(self, nåværende_år =None):#(Oppgåve 3.1) Metode som skriv returnerer alder for bilen 
@@ -59,9 +63,9 @@ class Eier: #(Oppgåve 5.1) Lagar klassen
 
 
 
-første_bil = Bil("Toyota," , "Supra,", 1986, 2023) #(Oppgåve 2.1)Lagrar klassen i det første objektet
+første_bil = Bil("Toyota," , "Supra,", 1986, 2023, None) #(Oppgåve 2.1)Lagrar klassen i det første objektet
 
-andre_bil = Bil("Nissan," , "Skyline R32,", 1989, 2023) #(Oppgåve 2.1)Lagrar klassen i det andre objektet
+andre_bil = Bil("Nissan," , "Skyline R32,", 1989, 2023, None) #(Oppgåve 2.1)Lagrar klassen i det andre objektet
 
 
 
@@ -86,11 +90,15 @@ def bilpark_info(bilpark): #(Oppgåve 4.2) Funksjon som går igjennom lista med 
 bilpark_info(bilpark)
 
 
-eigar = Eier("Elon Musk", "Muskgaten 23")
+eier = Eier("Elon Musk", "Muskgaten 23") #(Oppgåve 6.2) Lagar  objekt med klassen "Eier" 
 
-eigar.skriv_ut_info()
+første_bil.eier = eier # (Oppgåve 6.2) Knyttar Eier-objektet til første bil i bilparken
 
+eier.skriv_ut_info() #(Oppgåve 5.2) Skriv ut info om eigar
 
+første_bil.skriv_ut_info()
+
+bilpark_info(bilpark) #(Oppgåve 6.4) Skriver ut info om bilparken, no inkludert med eigarinfo om det er tilgjengelig
 
 
 

@@ -40,7 +40,7 @@ i "gjennomsnittlig_vurdering = sum(v.skår for v in self.vurderinger / len(self.
 "len" metoden/funksjonen (https://www.w3schools.com/python/ref_func_len.asp) tel kor mange vurderingar det er i lista. Deretter blir det printa ut "Gjennomsnittlig vurdering:" og "gjennomsnittlig_vurdering" variabelen.
 Til slutt vil "print()" skrive ut ei tom linje for å skille det aktuelle emnets informasjon med det neste emnets informasjon.
 
-"legg_til_vurdering" metoden tar argumentet "vurdering" "Append" metoden blir brukt for å legge til vurdering i "self.vurderinger" lista.
+"legg_til_vurdering" metoden tar argumentet "vurdering". "Append" metoden blir brukt for å legge til vurdering i "self.vurderinger" lista.
 
 
 

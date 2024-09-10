@@ -188,6 +188,7 @@ class EightGameNode:
 
 
 
+
 if __name__ == "__main__":
     '''
     code for checking the moves

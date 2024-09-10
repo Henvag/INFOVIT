@@ -6,8 +6,8 @@ from copy import deepcopy
 
 
 
-from astar_path import AStarPath
-from eight_game_node import EightGameNode
+from INFO180.Oblig1.astar_path import AStarPath
+from INFO180.Oblig1.eight_game_node import EightGameNode
 from queue import PriorityQueue
 
 

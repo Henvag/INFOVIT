@@ -24,8 +24,14 @@ class InvitationNode:
         self.ola = Guest("Ola")
         self.jan = Guest("Jan")
 
+        #Oppgave a) Nye gjester
+        self.kari = Guest("Kari")
+        self.per = Guest("Per")
+
         # You also need to make a list of all these potential guests
-        self.assignment = [self.anne, self.ola, self.jan]
+
+        #Oppgave b) Lagt til dei nye gjestane i lista
+        self.assignment = [self.anne, self.ola, self.jan, self.kari, self.per]
 
     def get_neighbours(self):
         '''
@@ -48,7 +54,7 @@ class InvitationNode:
 
         return result
 
-    def copy_and_add_assignment(self,invite):
+    def copy_and_add_assignment(self, invite):
         '''
         Copys a node and adds one invitation status to one potential guest
         :param invite: the invitation status to set
@@ -93,7 +99,7 @@ class InvitationNode:
 
         # anne => jan <=> ~anne or jan
         if self.none_undecided([self.anne, self.jan]):
-            constraint_2= self.anne.is_not_invited() or self.jan.is_invited()
+            constraint_2 = self.anne.is_not_invited() or self.jan.is_invited()
             val = val and constraint_2
 
         # ~anne => ~jan <=> anne or ~jan
@@ -101,9 +107,21 @@ class InvitationNode:
             constraint_3 = self.anne.is_invited() or self.jan.is_not_invited()
             val = val and constraint_3
 
+            # New constraints involving Kari and Per
+
+            # kari => ~per <=> ~kari or ~per
+        if self.none_undecided([self.kari, self.per]):
+            constraint_4 = not (self.kari.is_invited() and self.per.is_invited())
+            val = val and constraint_4
+
+            # kari => ~per <=> ~kari or ~per (duplicate constraint)
+        if self.none_undecided([self.kari, self.per]):
+            constraint_5 = not (self.kari.is_invited() and self.per.is_invited())
+            val = val and constraint_5
+
         # check how many invited so far
-        constraint_4 = self.is_ok_guest_count()
-        val = val and constraint_4
+        constraint_6 = self.is_ok_guest_count()
+        val = val and constraint_6
 
         return val
 
@@ -116,8 +134,7 @@ class InvitationNode:
             elif guest.is_undecided():
                 count_undecided = count_undecided + 1
         # wants at least 0 and at most 3 guests
-        return (count_invited <= 3 and count_invited + count_undecided >= 0)
-
+        return (count_invited <= 5 and count_invited + count_undecided >= 0)
 
     def none_undecided(self, constraint_guests):
         '''
@@ -153,6 +170,5 @@ class InvitationNode:
                 status = "Not invited"
             elif g.invited == Guest.UNDECIDED:
                 status == "Undecided"
-            str = str + '{:6} {}\n'.format(g.name,status)
+            str = str + '{:6} {}\n'.format(g.name, status)
         return str
-

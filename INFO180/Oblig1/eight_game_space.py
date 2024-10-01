@@ -152,14 +152,14 @@ if __name__ == "__main__":
 
     space = EightGameSpace()
     # various start nodes to try out
-    # solution = space.solve(EightGameNode([[1,2,3],[4,5,6],[7,8,0]]))
+    #solution =  space.solve(EightGameNode([[1,2,3],[4,5,6],[7,8,0]]))
     # solution = space.solve(EightGameNode([[1,2,3],[4,0,6],[7,5,8]]))
     # solution = space.solve(EightGameNode([[0,1,2],[3,4,5],[6,7,8]]))
     # solution = space.solve(EightGameNode([[1,2,3],[7,4,5],[8,0,6]]))
 
     # These following two have the longest solution - 32 moves -
     # and may take some minutes even with the Manhattan heuristic
-    # solution = space.solve(EightGameNode([[8,6,7],[2,5,4],[3,0,1]]))
+    #solution = space.solve(EightGameNode([[8,6,7],[2,5,4],[3,0,1]]))
     solution = space.solve(EightGameNode([[6,4,7],[8,5,0],[3,2,1]]))
 
     # Print the solution and the length of the solution

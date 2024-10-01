@@ -1,0 +1,1001 @@
+gender,age,study,activity,music,is dancer,ok guest
+female,< 20,socsci,outdoor life,soul/rb,not dancer,ok
+male,24-30,mathsci,outdoor life,jazz,not dancer,ok
+male,20-24,socsci,outdoor life,rock,not dancer,ok
+male,< 20,med,outdoor life,rock,dancer,not ok
+male,20-24,mathsci,gaming,classic,dancer,not ok
+male,< 20,mathsci,sport,classic,dancer,not ok
+female,20-24,hum,outdoor life,folk,not dancer,not ok
+female,< 20,socsci,music,jazz,not dancer,ok
+male,24-30,mathsci,outdoor life,hiphop,dancer,not ok
+male,< 20,mathsci,gaming,soul/rb,not dancer,not ok
+female,20-24,socsci,outdoor life,folk,not dancer,ok
+female,24-30,hum,cooking,hiphop,not dancer,not ok
+female,> 30,med,cooking,folk,not dancer,ok
+female,> 30,mathsci,music,jazz,not dancer,not ok
+male,> 30,med,music,jazz,not dancer,not ok
+male,> 30,med,sport,classic,dancer,not ok
+female,> 30,med,gaming,soul/rb,not dancer,not ok
+female,< 20,socsci,cooking,folk,dancer,ok
+female,24-30,socsci,music,rock,dancer,ok
+male,24-30,socsci,sport,hiphop,not dancer,not ok
+male,> 30,hum,outdoor life,folk,not dancer,ok
+male,< 20,mathsci,sport,hiphop,dancer,not ok
+female,> 30,socsci,outdoor life,soul/rb,not dancer,ok
+male,< 20,mathsci,gaming,soul/rb,not dancer,not ok
+female,< 20,socsci,outdoor life,classic,dancer,ok
+male,24-30,med,music,rock,not dancer,ok
+female,< 20,socsci,outdoor life,rock,dancer,ok
+female,< 20,med,cooking,folk,not dancer,ok
+male,24-30,mathsci,outdoor life,soul/rb,not dancer,not ok
+female,24-30,mathsci,gaming,folk,not dancer,not ok
+female,< 20,mathsci,music,classic,dancer,not ok
+male,20-24,socsci,music,hiphop,not dancer,ok
+female,< 20,med,gaming,jazz,dancer,ok
+female,24-30,socsci,outdoor life,soul/rb,not dancer,ok
+male,24-30,socsci,cooking,hiphop,dancer,ok
+female,> 30,socsci,music,soul/rb,not dancer,ok
+female,20-24,hum,sport,jazz,not dancer,not ok
+female,> 30,socsci,outdoor life,rock,dancer,not ok
+female,20-24,hum,gaming,soul/rb,dancer,ok
+female,> 30,hum,cooking,folk,not dancer,ok
+male,24-30,med,music,rock,not dancer,not ok
+male,< 20,mathsci,cooking,hiphop,not dancer,not ok
+female,> 30,mathsci,outdoor life,soul/rb,not dancer,ok
+male,> 30,socsci,gaming,folk,not dancer,ok
+male,24-30,socsci,sport,rock,not dancer,not ok
+female,< 20,mathsci,music,classic,not dancer,not ok
+female,24-30,socsci,music,rock,not dancer,ok
+female,24-30,med,cooking,jazz,not dancer,ok
+female,< 20,med,sport,rock,dancer,not ok
+female,20-24,hum,outdoor life,hiphop,not dancer,ok
+female,24-30,hum,sport,classic,not dancer,not ok
+male,20-24,mathsci,music,folk,not dancer,ok
+male,> 30,mathsci,gaming,classic,not dancer,ok
+female,> 30,hum,sport,folk,not dancer,ok
+female,24-30,mathsci,music,rock,dancer,not ok
+male,> 30,socsci,sport,classic,dancer,ok
+male,> 30,med,cooking,classic,dancer,not ok
+male,< 20,med,sport,hiphop,not dancer,not ok
+male,20-24,mathsci,gaming,classic,not dancer,not ok
+male,< 20,socsci,gaming,jazz,not dancer,not ok
+male,> 30,mathsci,music,folk,dancer,ok
+female,24-30,med,cooking,soul/rb,not dancer,ok
+female,> 30,mathsci,cooking,folk,not dancer,ok
+male,24-30,med,music,rock,not dancer,ok
+female,24-30,hum,outdoor life,jazz,not dancer,ok
+female,20-24,hum,cooking,soul/rb,dancer,not ok
+male,20-24,socsci,outdoor life,soul/rb,not dancer,ok
+male,< 20,mathsci,gaming,rock,not dancer,not ok
+female,24-30,hum,gaming,classic,dancer,ok
+male,< 20,socsci,outdoor life,soul/rb,not dancer,not ok
+male,< 20,hum,sport,classic,dancer,not ok
+male,24-30,hum,sport,folk,dancer,ok
+male,> 30,socsci,cooking,classic,dancer,ok
+female,24-30,mathsci,outdoor life,folk,not dancer,ok
+female,20-24,mathsci,cooking,classic,dancer,not ok
+female,24-30,med,sport,folk,dancer,not ok
+female,24-30,mathsci,music,rock,dancer,ok
+male,20-24,mathsci,outdoor life,rock,dancer,ok
+female,24-30,mathsci,sport,folk,dancer,not ok
+female,24-30,socsci,sport,soul/rb,dancer,not ok
+male,> 30,socsci,music,rock,dancer,ok
+male,< 20,mathsci,music,classic,not dancer,ok
+female,20-24,hum,cooking,soul/rb,dancer,not ok
+female,> 30,med,sport,soul/rb,not dancer,ok
+female,20-24,socsci,outdoor life,folk,not dancer,ok
+female,< 20,socsci,outdoor life,jazz,dancer,ok
+male,20-24,socsci,music,jazz,not dancer,ok
+female,20-24,socsci,sport,rock,not dancer,ok
+female,20-24,mathsci,music,folk,not dancer,not ok
+male,> 30,med,cooking,soul/rb,not dancer,ok
+male,< 20,med,outdoor life,soul/rb,not dancer,not ok
+female,> 30,hum,cooking,classic,not dancer,not ok
+female,20-24,socsci,sport,folk,not dancer,ok
+female,< 20,socsci,music,hiphop,not dancer,not ok
+female,< 20,hum,music,rock,dancer,ok
+male,24-30,socsci,music,jazz,dancer,ok
+male,> 30,mathsci,gaming,soul/rb,dancer,ok
+female,20-24,socsci,outdoor life,soul/rb,dancer,ok
+male,20-24,socsci,music,jazz,dancer,ok
+male,> 30,socsci,outdoor life,classic,dancer,ok
+female,24-30,hum,gaming,soul/rb,not dancer,ok
+female,20-24,med,outdoor life,rock,not dancer,ok
+female,20-24,hum,outdoor life,folk,not dancer,not ok
+male,> 30,mathsci,music,soul/rb,dancer,ok
+male,24-30,hum,gaming,soul/rb,not dancer,not ok
+male,> 30,mathsci,outdoor life,classic,dancer,ok
+male,< 20,hum,sport,folk,dancer,ok
+male,> 30,med,sport,classic,not dancer,not ok
+male,20-24,hum,cooking,soul/rb,dancer,ok
+female,20-24,hum,gaming,jazz,dancer,ok
+female,24-30,socsci,music,jazz,not dancer,ok
+female,24-30,hum,gaming,rock,not dancer,ok
+female,20-24,mathsci,music,jazz,not dancer,not ok
+female,< 20,mathsci,cooking,hiphop,dancer,not ok
+male,> 30,socsci,sport,hiphop,dancer,ok
+male,24-30,socsci,cooking,jazz,dancer,ok
+male,24-30,hum,music,soul/rb,not dancer,ok
+male,24-30,med,outdoor life,soul/rb,not dancer,ok
+female,24-30,socsci,music,soul/rb,not dancer,ok
+female,24-30,med,music,classic,not dancer,not ok
+female,20-24,socsci,gaming,folk,not dancer,ok
+male,> 30,mathsci,gaming,hiphop,not dancer,not ok
+male,< 20,mathsci,music,jazz,not dancer,not ok
+male,< 20,med,cooking,hiphop,dancer,ok
+female,20-24,hum,cooking,soul/rb,not dancer,not ok
+female,20-24,socsci,outdoor life,rock,not dancer,ok
+female,< 20,mathsci,music,classic,dancer,not ok
+male,20-24,med,sport,hiphop,dancer,ok
+female,24-30,socsci,music,rock,not dancer,ok
+female,> 30,mathsci,music,folk,not dancer,ok
+male,20-24,hum,outdoor life,classic,dancer,ok
+male,20-24,med,cooking,soul/rb,dancer,ok
+male,20-24,mathsci,outdoor life,classic,not dancer,not ok
+male,< 20,hum,sport,hiphop,dancer,not ok
+female,24-30,socsci,sport,jazz,not dancer,ok
+male,20-24,med,sport,hiphop,dancer,not ok
+male,24-30,mathsci,gaming,rock,not dancer,not ok
+female,> 30,socsci,gaming,classic,dancer,ok
+male,< 20,mathsci,outdoor life,soul/rb,not dancer,not ok
+female,> 30,hum,outdoor life,hiphop,not dancer,ok
+male,20-24,socsci,sport,classic,dancer,ok
+male,20-24,mathsci,music,hiphop,not dancer,not ok
+male,< 20,med,outdoor life,hiphop,dancer,not ok
+female,> 30,med,sport,soul/rb,not dancer,ok
+male,20-24,socsci,music,classic,not dancer,ok
+female,> 30,med,gaming,classic,not dancer,not ok
+female,20-24,socsci,cooking,soul/rb,not dancer,ok
+male,24-30,hum,cooking,soul/rb,not dancer,not ok
+male,> 30,med,gaming,classic,not dancer,not ok
+female,< 20,hum,outdoor life,folk,dancer,ok
+female,24-30,hum,gaming,classic,not dancer,ok
+male,20-24,hum,outdoor life,folk,dancer,ok
+male,< 20,mathsci,music,rock,not dancer,not ok
+female,> 30,socsci,outdoor life,folk,not dancer,ok
+female,20-24,hum,outdoor life,folk,not dancer,ok
+female,< 20,hum,sport,folk,not dancer,ok
+male,24-30,med,outdoor life,soul/rb,dancer,ok
+male,< 20,socsci,music,rock,not dancer,not ok
+female,> 30,socsci,outdoor life,rock,dancer,ok
+male,< 20,hum,gaming,classic,dancer,not ok
+female,< 20,socsci,cooking,soul/rb,dancer,ok
+male,< 20,hum,sport,soul/rb,dancer,ok
+female,< 20,socsci,sport,folk,dancer,ok
+female,< 20,med,sport,classic,dancer,not ok
+female,24-30,mathsci,cooking,classic,dancer,not ok
+female,> 30,socsci,music,soul/rb,dancer,ok
+female,> 30,socsci,gaming,jazz,not dancer,ok
+female,< 20,mathsci,gaming,classic,not dancer,not ok
+female,< 20,hum,music,classic,not dancer,ok
+female,< 20,mathsci,music,soul/rb,not dancer,not ok
+male,24-30,hum,music,classic,dancer,ok
+male,20-24,med,gaming,classic,not dancer,not ok
+female,24-30,socsci,music,jazz,not dancer,ok
+male,24-30,med,gaming,rock,not dancer,not ok
+male,24-30,med,music,soul/rb,not dancer,ok
+male,> 30,hum,music,hiphop,dancer,ok
+female,> 30,socsci,gaming,rock,not dancer,ok
+female,20-24,hum,outdoor life,classic,not dancer,ok
+male,< 20,socsci,music,classic,not dancer,ok
+female,> 30,med,cooking,rock,not dancer,ok
+female,> 30,socsci,music,soul/rb,not dancer,not ok
+female,> 30,hum,cooking,hiphop,dancer,ok
+female,20-24,socsci,outdoor life,hiphop,not dancer,ok
+female,20-24,med,outdoor life,folk,dancer,ok
+female,> 30,socsci,music,soul/rb,not dancer,not ok
+female,24-30,socsci,gaming,soul/rb,not dancer,ok
+male,24-30,med,sport,rock,not dancer,not ok
+female,20-24,med,gaming,rock,dancer,ok
+male,24-30,hum,music,soul/rb,dancer,ok
+male,> 30,hum,cooking,classic,dancer,ok
+female,24-30,hum,gaming,jazz,not dancer,ok
+male,> 30,socsci,cooking,jazz,not dancer,ok
+female,20-24,med,cooking,hiphop,not dancer,ok
+female,20-24,mathsci,music,rock,not dancer,not ok
+female,> 30,socsci,outdoor life,classic,not dancer,not ok
+male,> 30,hum,music,rock,dancer,ok
+female,20-24,mathsci,music,folk,not dancer,not ok
+female,< 20,socsci,gaming,hiphop,not dancer,ok
+female,20-24,hum,music,jazz,not dancer,ok
+female,< 20,mathsci,outdoor life,classic,dancer,not ok
+male,> 30,med,sport,soul/rb,dancer,not ok
+male,< 20,hum,cooking,rock,dancer,not ok
+male,< 20,mathsci,gaming,classic,not dancer,not ok
+female,> 30,mathsci,outdoor life,hiphop,not dancer,ok
+male,< 20,med,music,soul/rb,not dancer,not ok
+male,20-24,med,gaming,classic,not dancer,not ok
+male,24-30,socsci,outdoor life,folk,not dancer,ok
+male,20-24,hum,sport,rock,not dancer,not ok
+female,20-24,mathsci,gaming,folk,not dancer,ok
+male,< 20,socsci,cooking,classic,dancer,ok
+female,24-30,med,cooking,jazz,not dancer,not ok
+female,> 30,med,outdoor life,classic,dancer,not ok
+female,> 30,med,cooking,jazz,not dancer,ok
+female,24-30,socsci,outdoor life,soul/rb,dancer,ok
+female,24-30,mathsci,music,rock,not dancer,not ok
+male,> 30,socsci,outdoor life,jazz,not dancer,not ok
+male,> 30,socsci,cooking,hiphop,not dancer,not ok
+female,20-24,med,music,hiphop,dancer,ok
+male,24-30,socsci,outdoor life,rock,not dancer,ok
+female,< 20,med,sport,jazz,not dancer,not ok
+male,< 20,med,music,classic,dancer,ok
+female,24-30,hum,cooking,hiphop,not dancer,ok
+female,> 30,mathsci,cooking,folk,dancer,ok
+female,24-30,hum,music,classic,not dancer,ok
+male,24-30,hum,gaming,folk,dancer,ok
+male,24-30,med,outdoor life,rock,not dancer,not ok
+male,< 20,med,music,folk,dancer,ok
+male,> 30,med,gaming,folk,not dancer,ok
+male,20-24,med,music,classic,not dancer,ok
+female,20-24,socsci,outdoor life,classic,dancer,ok
+female,> 30,med,sport,jazz,not dancer,not ok
+male,> 30,med,cooking,soul/rb,not dancer,ok
+male,> 30,hum,cooking,soul/rb,dancer,ok
+male,> 30,mathsci,music,classic,dancer,ok
+male,24-30,hum,gaming,rock,dancer,not ok
+female,20-24,socsci,sport,jazz,dancer,not ok
+female,20-24,med,music,hiphop,not dancer,not ok
+male,> 30,med,gaming,jazz,not dancer,ok
+male,< 20,socsci,gaming,jazz,dancer,not ok
+male,24-30,mathsci,cooking,rock,not dancer,not ok
+female,24-30,socsci,cooking,folk,dancer,not ok
+male,20-24,socsci,outdoor life,jazz,not dancer,ok
+male,20-24,med,outdoor life,hiphop,dancer,ok
+male,> 30,socsci,outdoor life,classic,not dancer,ok
+male,< 20,hum,sport,soul/rb,not dancer,not ok
+male,< 20,hum,cooking,folk,not dancer,ok
+female,24-30,hum,cooking,hiphop,not dancer,ok
+male,20-24,med,outdoor life,jazz,not dancer,not ok
+male,< 20,mathsci,gaming,rock,not dancer,not ok
+female,> 30,med,cooking,folk,not dancer,not ok
+male,< 20,mathsci,outdoor life,soul/rb,dancer,not ok
+male,24-30,mathsci,outdoor life,rock,not dancer,ok
+male,< 20,hum,sport,jazz,not dancer,not ok
+male,24-30,socsci,cooking,rock,not dancer,not ok
+female,< 20,hum,music,hiphop,dancer,ok
+male,< 20,mathsci,sport,hiphop,dancer,not ok
+male,20-24,socsci,sport,folk,dancer,ok
+male,20-24,med,cooking,folk,dancer,ok
+male,20-24,med,gaming,classic,dancer,not ok
+female,< 20,med,music,classic,dancer,not ok
+male,> 30,mathsci,music,soul/rb,not dancer,not ok
+male,> 30,socsci,sport,classic,not dancer,ok
+female,> 30,med,gaming,folk,not dancer,not ok
+female,24-30,socsci,music,classic,not dancer,not ok
+male,20-24,socsci,gaming,folk,not dancer,ok
+male,< 20,hum,gaming,jazz,not dancer,not ok
+female,< 20,hum,outdoor life,soul/rb,dancer,ok
+male,24-30,med,cooking,hiphop,not dancer,not ok
+male,20-24,hum,music,hiphop,not dancer,ok
+female,> 30,hum,sport,hiphop,not dancer,ok
+female,< 20,socsci,gaming,hiphop,dancer,ok
+female,> 30,hum,gaming,folk,not dancer,ok
+male,20-24,mathsci,outdoor life,jazz,not dancer,ok
+female,> 30,hum,sport,hiphop,not dancer,ok
+male,< 20,socsci,sport,folk,dancer,ok
+male,< 20,mathsci,gaming,jazz,not dancer,not ok
+female,< 20,mathsci,cooking,hiphop,dancer,ok
+male,< 20,med,cooking,rock,not dancer,ok
+male,20-24,med,cooking,soul/rb,dancer,ok
+male,24-30,mathsci,sport,jazz,not dancer,not ok
+male,20-24,mathsci,music,folk,not dancer,ok
+male,< 20,med,music,jazz,not dancer,not ok
+male,20-24,med,music,soul/rb,not dancer,ok
+male,< 20,med,gaming,jazz,not dancer,not ok
+female,> 30,hum,gaming,hiphop,dancer,ok
+male,20-24,hum,outdoor life,classic,dancer,ok
+male,< 20,hum,music,soul/rb,dancer,ok
+female,< 20,mathsci,music,hiphop,dancer,not ok
+male,24-30,hum,sport,jazz,not dancer,not ok
+female,< 20,med,gaming,folk,not dancer,not ok
+female,< 20,socsci,sport,jazz,not dancer,ok
+female,< 20,hum,cooking,rock,not dancer,not ok
+female,< 20,hum,cooking,jazz,dancer,ok
+male,20-24,med,cooking,folk,not dancer,ok
+male,< 20,hum,outdoor life,classic,dancer,not ok
+male,< 20,hum,sport,classic,not dancer,not ok
+female,24-30,hum,cooking,hiphop,not dancer,not ok
+male,< 20,med,music,hiphop,not dancer,not ok
+female,20-24,mathsci,music,rock,not dancer,not ok
+male,24-30,hum,gaming,soul/rb,not dancer,not ok
+male,24-30,mathsci,music,classic,dancer,ok
+male,> 30,socsci,music,folk,dancer,ok
+male,< 20,mathsci,cooking,classic,not dancer,not ok
+female,< 20,med,sport,folk,dancer,ok
+female,20-24,med,gaming,classic,dancer,not ok
+female,< 20,med,cooking,classic,not dancer,not ok
+male,< 20,hum,cooking,rock,dancer,ok
+female,20-24,med,outdoor life,classic,not dancer,not ok
+female,24-30,socsci,sport,soul/rb,not dancer,ok
+male,20-24,mathsci,gaming,folk,not dancer,not ok
+male,24-30,hum,music,hiphop,dancer,ok
+male,24-30,med,gaming,classic,not dancer,not ok
+male,> 30,hum,music,hiphop,dancer,ok
+male,24-30,med,sport,classic,not dancer,not ok
+male,20-24,mathsci,music,classic,not dancer,ok
+male,< 20,hum,cooking,jazz,dancer,not ok
+male,24-30,med,gaming,classic,dancer,ok
+male,> 30,hum,cooking,classic,dancer,ok
+male,< 20,hum,music,rock,not dancer,ok
+female,20-24,socsci,sport,hiphop,not dancer,ok
+female,20-24,socsci,gaming,folk,not dancer,ok
+male,24-30,mathsci,outdoor life,hiphop,not dancer,not ok
+male,< 20,mathsci,music,hiphop,dancer,ok
+male,< 20,hum,outdoor life,rock,dancer,ok
+female,20-24,socsci,gaming,jazz,not dancer,ok
+female,< 20,med,cooking,soul/rb,not dancer,ok
+female,20-24,med,cooking,folk,not dancer,ok
+female,24-30,mathsci,sport,hiphop,not dancer,ok
+female,< 20,hum,outdoor life,hiphop,not dancer,ok
+male,> 30,mathsci,music,hiphop,not dancer,ok
+male,24-30,med,cooking,soul/rb,not dancer,ok
+female,20-24,med,cooking,jazz,dancer,ok
+male,> 30,hum,sport,jazz,not dancer,not ok
+female,20-24,mathsci,music,rock,dancer,not ok
+female,> 30,socsci,sport,hiphop,not dancer,ok
+male,24-30,hum,gaming,folk,dancer,ok
+male,24-30,socsci,cooking,rock,not dancer,not ok
+female,24-30,hum,cooking,soul/rb,not dancer,ok
+male,> 30,mathsci,outdoor life,folk,dancer,ok
+female,< 20,hum,outdoor life,jazz,dancer,ok
+male,20-24,med,sport,soul/rb,not dancer,ok
+male,< 20,mathsci,sport,soul/rb,not dancer,not ok
+female,> 30,med,gaming,classic,not dancer,not ok
+male,< 20,hum,music,jazz,dancer,ok
+male,< 20,mathsci,sport,soul/rb,not dancer,not ok
+male,> 30,hum,music,classic,dancer,ok
+male,20-24,socsci,sport,classic,not dancer,not ok
+female,24-30,socsci,outdoor life,soul/rb,not dancer,not ok
+male,20-24,mathsci,gaming,jazz,dancer,not ok
+male,> 30,mathsci,music,folk,dancer,ok
+female,20-24,hum,outdoor life,folk,not dancer,ok
+male,> 30,socsci,music,classic,dancer,ok
+male,> 30,med,cooking,folk,dancer,ok
+female,< 20,hum,cooking,rock,dancer,ok
+female,20-24,mathsci,cooking,jazz,dancer,not ok
+female,> 30,hum,outdoor life,soul/rb,dancer,ok
+male,< 20,hum,outdoor life,jazz,dancer,ok
+male,20-24,mathsci,music,rock,not dancer,not ok
+female,> 30,med,sport,soul/rb,not dancer,not ok
+male,> 30,socsci,music,classic,dancer,not ok
+female,20-24,mathsci,music,classic,dancer,not ok
+male,20-24,socsci,cooking,jazz,not dancer,ok
+female,> 30,hum,sport,hiphop,not dancer,ok
+female,> 30,mathsci,music,jazz,not dancer,not ok
+female,20-24,hum,music,hiphop,not dancer,ok
+male,24-30,socsci,music,folk,not dancer,ok
+male,24-30,hum,sport,soul/rb,not dancer,not ok
+female,< 20,hum,outdoor life,hiphop,dancer,ok
+female,> 30,hum,outdoor life,classic,dancer,ok
+male,20-24,mathsci,outdoor life,soul/rb,not dancer,not ok
+female,> 30,mathsci,cooking,soul/rb,not dancer,ok
+male,20-24,hum,music,rock,not dancer,ok
+female,24-30,med,gaming,folk,dancer,ok
+female,> 30,med,music,folk,not dancer,ok
+female,20-24,hum,gaming,rock,not dancer,ok
+female,20-24,hum,cooking,classic,not dancer,ok
+male,24-30,med,cooking,folk,dancer,ok
+female,24-30,med,sport,soul/rb,not dancer,ok
+female,20-24,hum,music,jazz,not dancer,ok
+male,> 30,med,cooking,folk,not dancer,ok
+female,> 30,hum,outdoor life,hiphop,not dancer,not ok
+male,24-30,hum,gaming,rock,dancer,ok
+male,24-30,socsci,gaming,rock,not dancer,ok
+female,> 30,mathsci,music,jazz,not dancer,not ok
+male,> 30,med,outdoor life,folk,dancer,ok
+male,20-24,hum,sport,jazz,dancer,ok
+female,20-24,hum,cooking,soul/rb,dancer,ok
+male,20-24,med,sport,classic,not dancer,not ok
+male,20-24,mathsci,music,rock,not dancer,ok
+female,20-24,mathsci,music,classic,not dancer,not ok
+female,< 20,hum,sport,jazz,not dancer,ok
+female,20-24,hum,music,jazz,dancer,ok
+female,24-30,med,cooking,folk,not dancer,ok
+male,> 30,med,outdoor life,classic,dancer,ok
+male,20-24,mathsci,sport,hiphop,not dancer,not ok
+female,> 30,hum,music,classic,not dancer,not ok
+female,24-30,mathsci,cooking,jazz,dancer,ok
+male,> 30,hum,sport,jazz,dancer,ok
+male,< 20,socsci,gaming,folk,not dancer,not ok
+female,> 30,socsci,outdoor life,rock,not dancer,ok
+female,> 30,med,cooking,classic,dancer,not ok
+female,24-30,hum,cooking,soul/rb,dancer,ok
+female,< 20,hum,music,rock,dancer,not ok
+male,< 20,hum,cooking,rock,not dancer,not ok
+male,< 20,med,cooking,hiphop,not dancer,not ok
+male,24-30,med,outdoor life,classic,not dancer,not ok
+male,> 30,socsci,music,rock,not dancer,ok
+male,20-24,hum,music,rock,not dancer,ok
+male,20-24,hum,sport,soul/rb,not dancer,ok
+female,> 30,mathsci,sport,folk,not dancer,ok
+female,24-30,med,cooking,soul/rb,not dancer,ok
+male,< 20,med,outdoor life,jazz,not dancer,not ok
+male,20-24,med,gaming,jazz,not dancer,not ok
+male,20-24,med,sport,jazz,not dancer,not ok
+female,20-24,hum,gaming,rock,not dancer,ok
+male,20-24,mathsci,gaming,jazz,not dancer,not ok
+male,20-24,mathsci,gaming,classic,not dancer,not ok
+male,24-30,hum,sport,hiphop,dancer,ok
+male,< 20,socsci,outdoor life,folk,not dancer,not ok
+male,< 20,socsci,music,folk,not dancer,ok
+female,20-24,hum,gaming,rock,not dancer,ok
+male,> 30,hum,music,folk,not dancer,ok
+male,20-24,med,gaming,folk,dancer,ok
+female,20-24,med,sport,hiphop,dancer,not ok
+male,> 30,med,cooking,jazz,dancer,ok
+male,> 30,socsci,music,folk,not dancer,ok
+male,20-24,med,sport,hiphop,not dancer,ok
+male,> 30,hum,cooking,jazz,dancer,ok
+female,20-24,socsci,music,folk,not dancer,ok
+male,24-30,mathsci,music,hiphop,dancer,ok
+male,< 20,med,sport,classic,not dancer,not ok
+female,20-24,socsci,outdoor life,jazz,not dancer,ok
+male,24-30,mathsci,sport,soul/rb,not dancer,ok
+male,24-30,hum,cooking,hiphop,not dancer,ok
+male,20-24,med,outdoor life,folk,not dancer,ok
+male,> 30,socsci,music,classic,not dancer,ok
+female,24-30,hum,sport,classic,not dancer,ok
+female,24-30,med,sport,rock,dancer,not ok
+female,24-30,socsci,cooking,hiphop,not dancer,not ok
+female,> 30,mathsci,music,jazz,dancer,not ok
+male,< 20,mathsci,gaming,rock,not dancer,not ok
+male,> 30,hum,music,soul/rb,dancer,ok
+female,20-24,socsci,cooking,rock,not dancer,ok
+male,20-24,med,music,hiphop,dancer,ok
+female,< 20,hum,outdoor life,hiphop,dancer,ok
+female,> 30,mathsci,sport,rock,not dancer,ok
+female,> 30,mathsci,music,rock,dancer,ok
+female,24-30,hum,sport,rock,not dancer,ok
+male,24-30,socsci,gaming,hiphop,dancer,not ok
+male,24-30,socsci,music,hiphop,not dancer,ok
+male,24-30,med,music,hiphop,not dancer,ok
+female,24-30,hum,cooking,folk,dancer,ok
+male,< 20,med,outdoor life,classic,not dancer,not ok
+male,20-24,med,outdoor life,classic,not dancer,not ok
+female,< 20,med,music,jazz,not dancer,not ok
+male,24-30,socsci,outdoor life,classic,dancer,ok
+female,< 20,hum,outdoor life,rock,not dancer,ok
+male,< 20,hum,gaming,folk,not dancer,not ok
+female,> 30,mathsci,cooking,classic,dancer,ok
+female,24-30,socsci,gaming,soul/rb,dancer,ok
+male,< 20,socsci,gaming,hiphop,dancer,not ok
+male,20-24,socsci,cooking,folk,not dancer,ok
+female,< 20,socsci,sport,jazz,not dancer,ok
+female,20-24,med,sport,rock,not dancer,not ok
+female,< 20,hum,music,hiphop,dancer,not ok
+male,24-30,mathsci,music,jazz,not dancer,not ok
+male,> 30,med,cooking,hiphop,dancer,not ok
+female,20-24,socsci,music,soul/rb,not dancer,ok
+male,< 20,mathsci,outdoor life,soul/rb,not dancer,not ok
+male,24-30,med,outdoor life,soul/rb,dancer,ok
+female,< 20,socsci,outdoor life,classic,not dancer,ok
+female,20-24,mathsci,music,classic,not dancer,not ok
+female,> 30,mathsci,music,hiphop,not dancer,not ok
+female,> 30,med,outdoor life,soul/rb,not dancer,ok
+female,< 20,med,gaming,jazz,not dancer,not ok
+female,20-24,mathsci,music,classic,not dancer,not ok
+female,> 30,mathsci,gaming,classic,dancer,not ok
+male,20-24,mathsci,music,soul/rb,not dancer,ok
+female,< 20,socsci,sport,folk,not dancer,ok
+male,24-30,med,music,soul/rb,dancer,ok
+female,20-24,socsci,gaming,folk,not dancer,ok
+male,> 30,mathsci,gaming,jazz,not dancer,not ok
+male,< 20,socsci,music,hiphop,not dancer,ok
+female,> 30,hum,cooking,hiphop,dancer,not ok
+female,24-30,med,music,soul/rb,dancer,not ok
+male,< 20,socsci,outdoor life,hiphop,dancer,ok
+male,< 20,mathsci,gaming,soul/rb,not dancer,not ok
+female,20-24,med,music,soul/rb,not dancer,not ok
+female,> 30,mathsci,music,classic,not dancer,not ok
+male,< 20,hum,sport,folk,not dancer,not ok
+female,> 30,hum,outdoor life,folk,dancer,ok
+male,< 20,mathsci,outdoor life,classic,dancer,not ok
+male,< 20,med,gaming,jazz,not dancer,not ok
+male,< 20,med,cooking,rock,not dancer,not ok
+male,20-24,med,cooking,soul/rb,dancer,not ok
+female,> 30,hum,sport,classic,dancer,ok
+female,< 20,socsci,outdoor life,folk,not dancer,ok
+female,< 20,socsci,music,hiphop,not dancer,ok
+female,24-30,socsci,outdoor life,soul/rb,dancer,not ok
+male,24-30,mathsci,music,hiphop,not dancer,not ok
+male,< 20,hum,gaming,jazz,not dancer,not ok
+male,> 30,mathsci,gaming,jazz,not dancer,not ok
+female,24-30,socsci,sport,soul/rb,not dancer,ok
+male,> 30,socsci,cooking,folk,not dancer,ok
+female,< 20,socsci,outdoor life,soul/rb,dancer,ok
+male,20-24,mathsci,music,folk,dancer,ok
+male,20-24,hum,music,hiphop,not dancer,ok
+female,> 30,mathsci,outdoor life,hiphop,dancer,not ok
+male,< 20,mathsci,gaming,hiphop,dancer,not ok
+male,24-30,socsci,sport,classic,dancer,not ok
+male,> 30,med,gaming,folk,dancer,ok
+male,20-24,hum,sport,jazz,dancer,ok
+female,20-24,hum,outdoor life,folk,not dancer,ok
+female,< 20,med,outdoor life,folk,dancer,ok
+female,> 30,socsci,gaming,jazz,dancer,ok
+female,20-24,socsci,sport,hiphop,dancer,not ok
+female,> 30,hum,sport,hiphop,not dancer,not ok
+male,> 30,hum,outdoor life,hiphop,not dancer,ok
+female,< 20,hum,cooking,hiphop,dancer,ok
+female,> 30,socsci,outdoor life,hiphop,not dancer,ok
+male,> 30,socsci,music,jazz,not dancer,not ok
+female,20-24,med,gaming,soul/rb,not dancer,ok
+female,< 20,mathsci,gaming,rock,not dancer,not ok
+male,< 20,hum,outdoor life,rock,dancer,ok
+female,> 30,med,cooking,rock,not dancer,ok
+male,< 20,socsci,music,jazz,not dancer,ok
+male,24-30,socsci,gaming,rock,not dancer,not ok
+female,> 30,mathsci,outdoor life,folk,not dancer,ok
+male,< 20,med,cooking,soul/rb,dancer,ok
+female,20-24,hum,cooking,classic,dancer,ok
+male,20-24,med,music,classic,dancer,ok
+male,20-24,mathsci,gaming,hiphop,not dancer,not ok
+female,> 30,socsci,music,jazz,dancer,ok
+male,> 30,mathsci,cooking,rock,dancer,not ok
+female,> 30,med,cooking,rock,not dancer,ok
+female,24-30,mathsci,gaming,folk,not dancer,ok
+female,24-30,med,music,folk,dancer,ok
+female,20-24,hum,outdoor life,rock,dancer,ok
+female,20-24,mathsci,sport,folk,not dancer,not ok
+male,> 30,med,gaming,classic,not dancer,not ok
+female,20-24,socsci,sport,rock,not dancer,ok
+male,20-24,med,sport,classic,not dancer,not ok
+female,24-30,socsci,cooking,soul/rb,not dancer,not ok
+female,20-24,med,gaming,hiphop,not dancer,ok
+male,20-24,mathsci,outdoor life,soul/rb,dancer,ok
+female,24-30,hum,outdoor life,classic,dancer,ok
+female,20-24,hum,outdoor life,soul/rb,not dancer,ok
+male,< 20,med,sport,classic,not dancer,not ok
+female,24-30,hum,outdoor life,folk,dancer,ok
+female,< 20,med,gaming,jazz,not dancer,ok
+male,20-24,socsci,music,folk,not dancer,ok
+female,20-24,med,outdoor life,hiphop,not dancer,not ok
+male,24-30,socsci,outdoor life,classic,not dancer,ok
+male,< 20,hum,outdoor life,classic,not dancer,not ok
+male,24-30,mathsci,sport,folk,dancer,not ok
+female,> 30,socsci,music,soul/rb,not dancer,ok
+female,< 20,hum,cooking,hiphop,dancer,ok
+male,< 20,socsci,gaming,hiphop,not dancer,not ok
+male,20-24,mathsci,outdoor life,soul/rb,dancer,ok
+male,< 20,med,sport,classic,dancer,ok
+male,20-24,socsci,gaming,classic,dancer,ok
+male,24-30,hum,music,rock,not dancer,ok
+male,> 30,mathsci,sport,hiphop,not dancer,not ok
+male,24-30,hum,cooking,classic,dancer,ok
+female,> 30,socsci,outdoor life,hiphop,dancer,ok
+female,24-30,med,music,classic,not dancer,not ok
+female,> 30,mathsci,music,folk,dancer,ok
+female,< 20,med,gaming,hiphop,not dancer,ok
+male,> 30,mathsci,music,jazz,not dancer,not ok
+female,> 30,socsci,outdoor life,jazz,not dancer,ok
+female,> 30,mathsci,gaming,soul/rb,dancer,not ok
+male,24-30,mathsci,gaming,soul/rb,not dancer,not ok
+male,20-24,mathsci,gaming,soul/rb,dancer,not ok
+female,24-30,med,gaming,hiphop,dancer,not ok
+female,> 30,med,sport,classic,not dancer,not ok
+male,< 20,mathsci,gaming,classic,not dancer,not ok
+female,> 30,mathsci,outdoor life,hiphop,dancer,ok
+female,24-30,mathsci,outdoor life,hiphop,not dancer,not ok
+female,< 20,socsci,cooking,hiphop,dancer,ok
+male,24-30,hum,cooking,jazz,not dancer,ok
+female,> 30,socsci,music,soul/rb,dancer,not ok
+female,24-30,socsci,outdoor life,rock,not dancer,ok
+male,< 20,mathsci,cooking,hiphop,not dancer,not ok
+male,24-30,mathsci,music,jazz,not dancer,ok
+female,< 20,socsci,outdoor life,folk,not dancer,ok
+male,24-30,socsci,cooking,hiphop,dancer,ok
+female,20-24,mathsci,outdoor life,folk,dancer,ok
+female,< 20,med,cooking,jazz,not dancer,ok
+male,> 30,med,cooking,soul/rb,dancer,ok
+male,20-24,hum,sport,rock,dancer,ok
+male,24-30,hum,cooking,classic,dancer,ok
+female,24-30,hum,sport,jazz,not dancer,ok
+male,24-30,mathsci,sport,folk,not dancer,ok
+male,24-30,hum,music,soul/rb,dancer,ok
+female,< 20,hum,gaming,jazz,not dancer,ok
+male,< 20,hum,gaming,classic,dancer,not ok
+female,20-24,hum,music,rock,dancer,ok
+male,< 20,socsci,sport,classic,not dancer,not ok
+female,20-24,hum,outdoor life,folk,not dancer,ok
+female,> 30,med,music,classic,dancer,not ok
+male,< 20,socsci,outdoor life,rock,dancer,ok
+female,24-30,hum,outdoor life,soul/rb,not dancer,ok
+female,> 30,med,cooking,jazz,not dancer,ok
+male,20-24,mathsci,outdoor life,soul/rb,not dancer,not ok
+male,24-30,hum,music,jazz,dancer,ok
+male,< 20,mathsci,sport,jazz,not dancer,not ok
+female,> 30,socsci,sport,folk,not dancer,ok
+female,> 30,mathsci,music,classic,not dancer,not ok
+male,< 20,mathsci,outdoor life,rock,not dancer,not ok
+female,20-24,socsci,cooking,rock,dancer,ok
+female,< 20,hum,gaming,soul/rb,not dancer,ok
+female,20-24,hum,sport,jazz,dancer,not ok
+male,24-30,mathsci,gaming,hiphop,dancer,not ok
+female,< 20,hum,gaming,rock,dancer,ok
+female,> 30,socsci,music,jazz,not dancer,not ok
+male,< 20,hum,gaming,jazz,not dancer,not ok
+male,> 30,hum,sport,hiphop,not dancer,ok
+male,< 20,mathsci,gaming,rock,not dancer,not ok
+female,< 20,mathsci,gaming,hiphop,not dancer,ok
+male,< 20,mathsci,gaming,jazz,not dancer,not ok
+male,24-30,hum,sport,rock,not dancer,not ok
+female,> 30,med,cooking,soul/rb,not dancer,ok
+male,20-24,hum,outdoor life,jazz,not dancer,ok
+male,< 20,mathsci,music,soul/rb,dancer,not ok
+male,24-30,socsci,music,folk,not dancer,ok
+male,24-30,mathsci,outdoor life,classic,dancer,ok
+female,20-24,socsci,sport,rock,not dancer,not ok
+male,24-30,med,gaming,rock,not dancer,not ok
+female,> 30,socsci,gaming,folk,not dancer,ok
+female,> 30,hum,sport,folk,not dancer,ok
+female,24-30,mathsci,gaming,soul/rb,dancer,not ok
+male,> 30,socsci,gaming,jazz,dancer,ok
+female,< 20,socsci,outdoor life,classic,not dancer,ok
+female,< 20,hum,sport,rock,not dancer,ok
+male,< 20,hum,outdoor life,hiphop,dancer,ok
+male,< 20,hum,sport,folk,dancer,ok
+male,> 30,socsci,sport,rock,not dancer,ok
+female,20-24,mathsci,music,hiphop,not dancer,not ok
+male,> 30,med,sport,folk,dancer,ok
+male,< 20,mathsci,gaming,classic,not dancer,not ok
+female,20-24,mathsci,music,jazz,not dancer,not ok
+female,24-30,mathsci,music,classic,not dancer,ok
+male,24-30,mathsci,gaming,hiphop,dancer,not ok
+male,24-30,mathsci,sport,classic,not dancer,not ok
+female,< 20,socsci,outdoor life,jazz,not dancer,ok
+male,< 20,mathsci,cooking,rock,not dancer,not ok
+male,< 20,hum,music,soul/rb,dancer,not ok
+female,20-24,med,music,rock,not dancer,not ok
+male,24-30,med,cooking,soul/rb,not dancer,ok
+female,< 20,socsci,sport,jazz,not dancer,ok
+male,> 30,socsci,music,hiphop,dancer,ok
+female,> 30,mathsci,music,classic,not dancer,not ok
+male,< 20,socsci,outdoor life,jazz,dancer,ok
+male,20-24,med,gaming,rock,not dancer,not ok
+female,> 30,hum,cooking,jazz,not dancer,ok
+male,20-24,hum,outdoor life,soul/rb,dancer,ok
+female,< 20,mathsci,cooking,hiphop,not dancer,ok
+male,< 20,mathsci,sport,jazz,dancer,not ok
+female,20-24,mathsci,music,soul/rb,dancer,not ok
+male,24-30,med,gaming,jazz,not dancer,not ok
+male,20-24,socsci,cooking,jazz,not dancer,not ok
+male,20-24,med,outdoor life,soul/rb,not dancer,ok
+male,> 30,hum,sport,soul/rb,dancer,ok
+male,24-30,mathsci,music,classic,dancer,ok
+female,24-30,mathsci,outdoor life,classic,not dancer,not ok
+female,< 20,hum,gaming,jazz,not dancer,ok
+male,< 20,hum,sport,classic,not dancer,not ok
+female,> 30,hum,sport,jazz,dancer,ok
+female,< 20,med,gaming,rock,dancer,ok
+male,> 30,mathsci,gaming,classic,not dancer,not ok
+female,20-24,mathsci,gaming,jazz,dancer,not ok
+female,< 20,mathsci,gaming,soul/rb,dancer,not ok
+female,24-30,hum,cooking,hiphop,not dancer,ok
+female,< 20,hum,cooking,hiphop,not dancer,ok
+female,24-30,med,music,rock,not dancer,not ok
+male,24-30,hum,music,folk,dancer,ok
+male,24-30,socsci,outdoor life,hiphop,dancer,ok
+male,24-30,hum,gaming,jazz,not dancer,not ok
+female,24-30,socsci,sport,rock,not dancer,ok
+male,< 20,mathsci,outdoor life,folk,dancer,not ok
+male,> 30,hum,outdoor life,folk,not dancer,ok
+female,24-30,socsci,sport,hiphop,dancer,ok
+male,24-30,hum,music,hiphop,not dancer,ok
+female,24-30,hum,sport,rock,dancer,not ok
+female,24-30,med,cooking,folk,not dancer,ok
+male,> 30,hum,cooking,hiphop,not dancer,not ok
+male,> 30,hum,cooking,folk,not dancer,not ok
+female,< 20,hum,gaming,jazz,not dancer,ok
+female,20-24,socsci,outdoor life,hiphop,not dancer,ok
+male,> 30,socsci,sport,jazz,dancer,ok
+female,> 30,hum,outdoor life,soul/rb,dancer,ok
+female,20-24,socsci,sport,classic,dancer,not ok
+male,24-30,med,sport,hiphop,not dancer,ok
+male,24-30,mathsci,sport,classic,dancer,not ok
+male,24-30,mathsci,gaming,hiphop,dancer,not ok
+female,24-30,hum,music,jazz,not dancer,ok
+female,> 30,hum,music,classic,not dancer,not ok
+female,< 20,hum,gaming,rock,not dancer,ok
+male,24-30,mathsci,outdoor life,soul/rb,not dancer,ok
+male,> 30,socsci,music,soul/rb,dancer,ok
+male,20-24,med,music,hiphop,dancer,ok
+female,> 30,hum,outdoor life,rock,dancer,ok
+male,24-30,hum,music,folk,not dancer,ok
+male,24-30,hum,gaming,jazz,dancer,not ok
+female,< 20,hum,outdoor life,jazz,dancer,ok
+female,24-30,socsci,sport,hiphop,dancer,ok
+female,> 30,socsci,sport,jazz,dancer,not ok
+male,< 20,mathsci,music,rock,not dancer,not ok
+male,> 30,med,outdoor life,rock,not dancer,not ok
+male,> 30,socsci,sport,folk,not dancer,ok
+male,24-30,mathsci,gaming,folk,not dancer,not ok
+male,20-24,hum,sport,hiphop,dancer,ok
+male,24-30,med,music,soul/rb,dancer,not ok
+male,20-24,hum,outdoor life,soul/rb,not dancer,ok
+female,< 20,socsci,gaming,classic,not dancer,not ok
+male,< 20,med,outdoor life,folk,dancer,not ok
+male,< 20,med,cooking,folk,dancer,ok
+female,< 20,med,cooking,classic,dancer,ok
+female,20-24,socsci,sport,hiphop,dancer,ok
+male,20-24,mathsci,outdoor life,rock,not dancer,ok
+male,> 30,mathsci,gaming,classic,not dancer,not ok
+male,20-24,hum,cooking,rock,not dancer,ok
+male,20-24,mathsci,gaming,rock,not dancer,not ok
+female,24-30,mathsci,music,hiphop,not dancer,ok
+male,24-30,med,sport,jazz,dancer,not ok
+female,20-24,socsci,outdoor life,jazz,dancer,ok
+female,20-24,socsci,outdoor life,hiphop,not dancer,not ok
+female,< 20,mathsci,sport,rock,dancer,ok
+male,20-24,mathsci,outdoor life,jazz,dancer,ok
+female,20-24,med,music,hiphop,dancer,ok
+male,< 20,socsci,outdoor life,jazz,dancer,ok
+male,20-24,mathsci,outdoor life,hiphop,not dancer,ok
+male,> 30,med,cooking,jazz,not dancer,ok
+female,< 20,hum,music,soul/rb,not dancer,ok
+female,> 30,hum,sport,folk,dancer,ok
+male,20-24,mathsci,sport,soul/rb,not dancer,not ok
+female,> 30,mathsci,outdoor life,folk,not dancer,ok
+female,24-30,med,cooking,hiphop,not dancer,ok
+female,> 30,mathsci,music,folk,dancer,not ok
+female,20-24,socsci,sport,folk,dancer,ok
+male,20-24,socsci,music,rock,dancer,ok
+male,24-30,med,music,folk,not dancer,ok
+female,> 30,socsci,gaming,soul/rb,not dancer,ok
+male,20-24,med,cooking,folk,dancer,ok
+female,20-24,med,sport,rock,dancer,ok
+female,20-24,socsci,music,hiphop,dancer,ok
+male,< 20,hum,cooking,rock,not dancer,not ok
+male,< 20,hum,sport,jazz,dancer,not ok
+female,< 20,socsci,outdoor life,classic,dancer,ok
+female,24-30,med,cooking,jazz,dancer,ok
+male,< 20,med,outdoor life,folk,not dancer,not ok
+female,< 20,mathsci,music,classic,dancer,not ok
+male,20-24,socsci,sport,jazz,not dancer,ok
+male,< 20,med,gaming,rock,not dancer,not ok
+male,20-24,med,outdoor life,folk,not dancer,ok
+female,20-24,socsci,sport,soul/rb,not dancer,ok
+female,> 30,socsci,music,rock,dancer,ok
+male,> 30,med,outdoor life,rock,not dancer,not ok
+male,< 20,hum,sport,classic,not dancer,not ok
+female,< 20,socsci,outdoor life,classic,not dancer,not ok
+female,> 30,hum,cooking,classic,dancer,not ok
+male,< 20,med,sport,hiphop,not dancer,not ok
+female,< 20,socsci,outdoor life,jazz,dancer,ok
+female,20-24,med,sport,hiphop,dancer,not ok
+female,20-24,hum,cooking,rock,not dancer,ok
+female,> 30,mathsci,gaming,classic,dancer,not ok
+male,> 30,socsci,sport,folk,dancer,ok
+female,24-30,med,gaming,classic,dancer,ok
+female,24-30,socsci,music,soul/rb,dancer,not ok
+male,< 20,socsci,sport,hiphop,dancer,not ok
+male,> 30,socsci,sport,soul/rb,not dancer,not ok
+male,< 20,hum,outdoor life,rock,not dancer,not ok
+female,20-24,med,outdoor life,jazz,dancer,ok
+male,24-30,med,outdoor life,soul/rb,dancer,ok
+male,24-30,hum,music,rock,dancer,ok
+male,24-30,mathsci,gaming,rock,dancer,not ok
+male,> 30,mathsci,cooking,classic,not dancer,ok
+male,24-30,mathsci,sport,jazz,not dancer,not ok
+male,20-24,hum,cooking,classic,not dancer,ok
+female,> 30,hum,gaming,folk,not dancer,ok
+female,20-24,med,gaming,folk,not dancer,ok
+male,20-24,socsci,outdoor life,soul/rb,dancer,ok
+female,24-30,socsci,gaming,hiphop,not dancer,ok
+male,> 30,socsci,music,rock,dancer,ok
+male,> 30,hum,sport,classic,not dancer,ok
+female,24-30,hum,cooking,hiphop,dancer,ok
+female,> 30,hum,cooking,jazz,not dancer,ok
+female,< 20,socsci,sport,classic,dancer,ok
+female,> 30,socsci,cooking,hiphop,not dancer,ok
+male,20-24,med,cooking,folk,dancer,ok
+female,> 30,mathsci,cooking,folk,not dancer,ok
+male,20-24,socsci,sport,jazz,not dancer,not ok
+male,24-30,mathsci,music,jazz,not dancer,ok
+female,> 30,med,music,rock,not dancer,not ok
+male,24-30,hum,sport,hiphop,dancer,not ok
+female,< 20,socsci,outdoor life,soul/rb,dancer,ok
+female,24-30,hum,sport,soul/rb,dancer,ok
+male,< 20,socsci,sport,soul/rb,dancer,ok
+female,24-30,mathsci,music,rock,not dancer,ok
+male,< 20,socsci,music,classic,dancer,ok
+female,> 30,med,music,hiphop,not dancer,ok
+female,< 20,mathsci,cooking,hiphop,dancer,ok
+male,> 30,hum,outdoor life,jazz,not dancer,not ok
+male,< 20,hum,cooking,rock,not dancer,ok
+male,< 20,socsci,sport,rock,not dancer,not ok
+male,< 20,socsci,sport,jazz,dancer,ok
+male,20-24,hum,sport,soul/rb,dancer,ok
+male,24-30,mathsci,sport,hiphop,not dancer,not ok
+male,20-24,socsci,gaming,classic,not dancer,not ok
+female,< 20,mathsci,sport,rock,not dancer,not ok
+female,20-24,socsci,sport,classic,not dancer,not ok
+female,> 30,hum,outdoor life,soul/rb,dancer,not ok
+female,> 30,hum,outdoor life,rock,not dancer,ok
+female,< 20,socsci,cooking,soul/rb,not dancer,not ok
+male,24-30,med,music,soul/rb,not dancer,ok
+female,> 30,hum,gaming,jazz,not dancer,ok
+female,24-30,socsci,outdoor life,jazz,dancer,ok
+male,< 20,mathsci,gaming,classic,not dancer,not ok
+male,< 20,hum,outdoor life,jazz,not dancer,ok
+female,20-24,socsci,music,classic,not dancer,not ok
+male,< 20,med,sport,folk,dancer,ok
+female,20-24,med,sport,jazz,not dancer,ok
+female,20-24,mathsci,outdoor life,rock,dancer,not ok
+male,< 20,hum,sport,folk,dancer,ok
+male,> 30,hum,gaming,folk,not dancer,ok
+female,24-30,mathsci,sport,soul/rb,not dancer,not ok
+male,20-24,socsci,sport,rock,not dancer,not ok
+female,> 30,med,outdoor life,soul/rb,dancer,ok
+male,24-30,med,gaming,classic,dancer,ok
+male,< 20,med,sport,rock,not dancer,not ok
+male,20-24,hum,gaming,soul/rb,not dancer,ok
+female,24-30,med,outdoor life,folk,not dancer,not ok
+female,24-30,socsci,outdoor life,soul/rb,not dancer,not ok
+male,20-24,mathsci,gaming,rock,not dancer,not ok
+female,> 30,med,music,soul/rb,not dancer,ok
+male,< 20,mathsci,gaming,folk,not dancer,not ok
+male,> 30,socsci,outdoor life,hiphop,dancer,ok
+male,> 30,hum,gaming,folk,not dancer,ok
+female,20-24,med,sport,classic,dancer,not ok
+female,< 20,socsci,sport,folk,dancer,not ok
+female,24-30,socsci,cooking,classic,not dancer,ok
+female,20-24,socsci,sport,jazz,dancer,ok
+male,< 20,socsci,sport,rock,not dancer,not ok
+female,< 20,mathsci,sport,classic,not dancer,not ok
+female,24-30,socsci,music,rock,not dancer,ok
+female,> 30,hum,gaming,hiphop,not dancer,not ok
+male,< 20,med,cooking,folk,not dancer,ok
+male,20-24,med,outdoor life,jazz,dancer,ok
+female,> 30,med,sport,hiphop,not dancer,ok
+female,> 30,hum,cooking,folk,dancer,ok
+female,24-30,socsci,gaming,rock,not dancer,ok
+female,< 20,hum,gaming,hiphop,dancer,ok
+female,20-24,mathsci,music,soul/rb,not dancer,ok
+female,> 30,socsci,sport,hiphop,not dancer,ok
+male,> 30,med,music,jazz,dancer,ok
+female,20-24,hum,gaming,classic,not dancer,ok
+female,24-30,socsci,sport,rock,not dancer,ok
+female,20-24,hum,sport,jazz,dancer,ok
+female,24-30,hum,music,jazz,not dancer,not ok
+female,< 20,socsci,cooking,folk,not dancer,ok
+male,24-30,med,outdoor life,classic,not dancer,ok
+female,< 20,med,cooking,hiphop,not dancer,ok
+female,> 30,mathsci,outdoor life,classic,not dancer,not ok
+male,< 20,med,cooking,classic,not dancer,not ok
+female,< 20,socsci,sport,classic,dancer,ok
+female,24-30,mathsci,music,soul/rb,dancer,ok
+female,24-30,socsci,music,soul/rb,not dancer,ok
+female,< 20,socsci,sport,jazz,not dancer,ok
+female,24-30,hum,music,folk,dancer,ok
+female,> 30,mathsci,gaming,jazz,not dancer,not ok
+female,< 20,med,gaming,folk,dancer,ok
+female,> 30,hum,cooking,soul/rb,not dancer,ok
+female,> 30,mathsci,sport,hiphop,not dancer,not ok
+female,< 20,socsci,music,soul/rb,dancer,ok
+female,< 20,med,music,classic,not dancer,not ok
+male,> 30,socsci,music,classic,dancer,ok
+female,< 20,hum,gaming,hiphop,not dancer,not ok
+female,20-24,socsci,sport,hiphop,dancer,ok
+female,20-24,hum,music,soul/rb,not dancer,ok
+female,24-30,hum,music,classic,not dancer,ok
+male,20-24,mathsci,sport,rock,not dancer,ok
+female,24-30,socsci,sport,folk,not dancer,ok
+male,> 30,hum,cooking,soul/rb,not dancer,not ok
+male,> 30,med,outdoor life,folk,not dancer,ok
+male,20-24,socsci,outdoor life,hiphop,dancer,ok
+male,< 20,mathsci,music,jazz,dancer,ok
+female,< 20,hum,music,soul/rb,dancer,not ok
+male,< 20,med,outdoor life,soul/rb,not dancer,ok
+male,24-30,med,gaming,soul/rb,dancer,ok
+male,< 20,med,outdoor life,classic,not dancer,not ok
+male,< 20,hum,sport,soul/rb,not dancer,not ok
+male,< 20,mathsci,gaming,folk,not dancer,ok
+female,> 30,hum,music,soul/rb,not dancer,ok
+male,< 20,mathsci,cooking,classic,not dancer,not ok
+female,20-24,socsci,outdoor life,soul/rb,dancer,not ok
+male,< 20,mathsci,outdoor life,rock,not dancer,not ok
+male,< 20,mathsci,cooking,hiphop,not dancer,not ok
+female,20-24,hum,music,folk,not dancer,ok
+male,20-24,socsci,sport,rock,not dancer,not ok
+female,> 30,socsci,gaming,folk,not dancer,ok
+female,> 30,socsci,cooking,folk,not dancer,ok
+female,24-30,med,gaming,rock,not dancer,ok
+female,24-30,socsci,outdoor life,folk,dancer,ok
+female,> 30,hum,music,rock,not dancer,not ok
+male,< 20,med,sport,classic,dancer,not ok
+female,> 30,hum,music,rock,not dancer,ok
+female,20-24,socsci,cooking,hiphop,not dancer,ok
+female,20-24,hum,outdoor life,classic,not dancer,not ok
+female,> 30,hum,music,hiphop,dancer,not ok
+female,20-24,hum,sport,jazz,dancer,not ok
+female,> 30,hum,gaming,folk,dancer,ok
+female,< 20,hum,outdoor life,hiphop,not dancer,ok
+male,20-24,mathsci,music,rock,not dancer,not ok
+male,24-30,mathsci,gaming,hiphop,not dancer,not ok
+female,24-30,mathsci,music,classic,not dancer,not ok
+female,24-30,hum,outdoor life,soul/rb,not dancer,ok
+male,24-30,mathsci,cooking,hiphop,not dancer,not ok
+male,< 20,mathsci,outdoor life,jazz,not dancer,not ok
+female,24-30,mathsci,sport,folk,dancer,ok
+male,24-30,med,cooking,folk,dancer,ok
+male,> 30,mathsci,outdoor life,jazz,dancer,ok
+female,24-30,hum,sport,jazz,dancer,ok
+female,20-24,socsci,music,rock,not dancer,ok
+male,24-30,socsci,outdoor life,hiphop,dancer,ok
+male,24-30,hum,outdoor life,soul/rb,not dancer,ok
+male,20-24,hum,gaming,soul/rb,dancer,not ok
+female,> 30,socsci,cooking,soul/rb,not dancer,ok
+female,20-24,socsci,cooking,rock,not dancer,ok
+male,> 30,med,outdoor life,classic,dancer,not ok
+female,> 30,mathsci,sport,folk,not dancer,ok
+female,< 20,hum,cooking,rock,dancer,ok
+male,< 20,socsci,cooking,hiphop,dancer,not ok
+male,20-24,socsci,outdoor life,folk,not dancer,ok
+female,< 20,mathsci,cooking,folk,dancer,ok
+male,< 20,socsci,sport,soul/rb,dancer,not ok
+male,24-30,med,gaming,jazz,not dancer,not ok
+female,< 20,med,cooking,classic,not dancer,not ok
+female,24-30,hum,music,folk,not dancer,ok
+male,< 20,socsci,music,jazz,dancer,ok
+male,> 30,mathsci,cooking,rock,dancer,ok
+female,> 30,mathsci,gaming,classic,not dancer,not ok
+male,20-24,hum,sport,jazz,dancer,ok
+male,> 30,socsci,cooking,hiphop,not dancer,ok
+female,24-30,socsci,outdoor life,jazz,dancer,ok
+female,20-24,socsci,gaming,hiphop,not dancer,ok
+female,> 30,med,music,rock,dancer,ok
+male,20-24,mathsci,music,soul/rb,dancer,ok
+male,20-24,hum,gaming,rock,dancer,not ok
+male,24-30,socsci,music,jazz,not dancer,ok
+male,> 30,med,gaming,rock,not dancer,not ok
+female,> 30,hum,cooking,folk,not dancer,ok
+female,> 30,mathsci,gaming,classic,not dancer,not ok
+female,20-24,mathsci,music,classic,dancer,not ok
+male,20-24,hum,sport,hiphop,dancer,ok
+female,> 30,med,music,rock,not dancer,not ok
+female,24-30,hum,gaming,folk,dancer,ok
+female,< 20,socsci,music,rock,not dancer,ok
+male,> 30,med,music,rock,dancer,ok
+male,< 20,mathsci,gaming,jazz,dancer,not ok
+female,> 30,hum,gaming,folk,dancer,ok
+female,24-30,hum,sport,hiphop,not dancer,not ok
+female,20-24,hum,gaming,folk,not dancer,ok
+male,> 30,med,cooking,jazz,dancer,ok
+male,20-24,med,music,rock,dancer,ok
+female,24-30,med,music,soul/rb,dancer,ok
+male,> 30,hum,outdoor life,classic,dancer,ok
+female,> 30,hum,gaming,rock,not dancer,ok
+female,> 30,socsci,gaming,hiphop,not dancer,ok
+male,< 20,hum,cooking,folk,dancer,ok
+female,20-24,socsci,sport,soul/rb,not dancer,ok
+male,20-24,mathsci,gaming,soul/rb,not dancer,not ok
+male,> 30,mathsci,music,folk,not dancer,ok
+female,20-24,med,gaming,classic,dancer,not ok
+female,20-24,hum,outdoor life,folk,not dancer,ok
+male,< 20,mathsci,sport,jazz,not dancer,not ok
+female,20-24,hum,sport,rock,not dancer,ok
+female,< 20,mathsci,sport,jazz,not dancer,ok
+female,> 30,mathsci,cooking,classic,dancer,ok
+female,> 30,mathsci,music,jazz,not dancer,not ok
+male,< 20,socsci,music,jazz,dancer,not ok
+female,24-30,hum,gaming,hiphop,dancer,not ok
+male,24-30,med,sport,hiphop,not dancer,not ok
+male,20-24,hum,music,jazz,not dancer,ok
+male,> 30,med,outdoor life,classic,dancer,not ok
+female,20-24,socsci,gaming,folk,not dancer,ok
+female,> 30,med,gaming,jazz,not dancer,not ok
+female,> 30,socsci,sport,rock,dancer,ok
+male,24-30,mathsci,gaming,rock,not dancer,not ok
+female,> 30,socsci,outdoor life,soul/rb,dancer,not ok
+female,< 20,mathsci,music,soul/rb,not dancer,not ok
+male,> 30,hum,cooking,folk,not dancer,not ok
+male,< 20,hum,sport,rock,dancer,ok
+male,> 30,socsci,outdoor life,jazz,dancer,ok
+female,< 20,med,cooking,folk,dancer,ok
+female,< 20,socsci,sport,jazz,not dancer,ok
+male,< 20,mathsci,gaming,rock,not dancer,not ok
+male,20-24,hum,music,rock,dancer,not ok
+female,> 30,hum,sport,soul/rb,not dancer,not ok
+male,20-24,hum,gaming,folk,not dancer,ok
+female,20-24,med,gaming,classic,dancer,not ok

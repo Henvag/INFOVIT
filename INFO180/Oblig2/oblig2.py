@@ -8,14 +8,32 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 
-# Read the data from the csv file
-data = read_csv('party_data.csv', header=None)
+# Read the data from the csv file (setting header to infer sets the first row as column names)
+# Data has 1000 (instances) rows and 7 columns (attributes), we see this by printing the data shape
+data = read_csv('party_data.csv', header="infer")
+print(f"Data Shape: {data.shape}")
 
 """
+Here is a general explanation of the code
+
+
 Preprocessing the data for k-NN and Decision Tree:
 
 First the data is one-hot encoded, then the data is encoded using OrdinalEncoder.
 The data is then shuffled and split into training and test sets, 80% training and 20% test.
+
+We then train and evaluate the k-NN classifier with different values of k (3, 5, 11, 17).
+
+
+Accuracy means, how often the classifier is correct. So in the confusion matrix you use addition on the TP and TN values and divide by the total number of instances.
+Precision means, when it predicts how often is it correct. So in the confusion matrix you use divide the TP by the total"predicted positive" values
+
+Example:
+[[ 71   8]
+ [  7 114]]
+ 
+ If this is the confusion matrix, the accuracy is (71+114)/(71+8+7+114) = 0.92 = 92%
+ And if the same confusion matrix is used ,the precision for the "ok" class is 114/(8+114) = 0.93 = 93%
 """
 
 # Preprocessing the data for k-NN and Decision Tree

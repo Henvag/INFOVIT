@@ -1,13 +1,5 @@
 [
   {
-    "@id": "http://example.org/Michael_Cohen",
-    "http://example.org/was_attorney": [
-      {
-        "@id": "http://example.org/Donald_Trump"
-      }
-    ]
-  },
-  {
     "@id": "http://example.org/Rick_Gates",
     "http://example.org/pleaded_guilty_to": [
       {
@@ -26,6 +18,42 @@
       },
       {
         "@value": "foreign lobbying"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/Mueller_Investigation",
+    "http://example.org/involved": [
+      {
+        "@id": "http://example.org/Paul_Manafort"
+      },
+      {
+        "@id": "http://example.org/Rick_Gates"
+      },
+      {
+        "@id": "http://example.org/George_Papadopoulos"
+      },
+      {
+        "@id": "http://example.org/Michael_Flynn"
+      },
+      {
+        "@id": "http://example.org/Michael_Cohen"
+      },
+      {
+        "@id": "http://example.org/Roger_Stone"
+      }
+    ],
+    "http://example.org/was_led_by": [
+      {
+        "@id": "http://example.org/Robert_Mueller"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/Donald_Trump",
+    "http://example.org/pleaded_guilty_to": [
+      {
+        "@value": "lying to congress"
       }
     ]
   },
@@ -77,40 +105,11 @@
     ]
   },
   {
-    "@id": "http://example.org/Mueller_Investigation",
-    "http://example.org/involved": [
+    "@id": "http://example.org/Michael_Cohen",
+    "http://example.org/was_attorney": [
       {
-        "@id": "http://example.org/Paul_Manafort"
-      },
-      {
-        "@id": "http://example.org/Rick_Gates"
-      },
-      {
-        "@id": "http://example.org/George_Papadopoulos"
-      },
-      {
-        "@id": "http://example.org/Michael_Flynn"
-      },
-      {
-        "@id": "http://example.org/Michael_Cohen"
-      },
-      {
-        "@id": "http://example.org/Roger_Stone"
-      }
-    ],
-    "http://example.org/was_led_by": [
-      {
-        "@id": "http://example.org/Robert_Mueller"
-      }
-    ]
-  },
-  {
-    "@id": "http://example.org/Donald_Trump",
-    "http://example.org/pleaded_guilty_to": [
-      {
-        "@value": "lying to congress"
+        "@id": "http://example.org/Donald_Trump"
       }
     ]
   }
 ]
-

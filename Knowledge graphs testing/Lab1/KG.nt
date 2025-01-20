@@ -1,25 +1,24 @@
-<http://example.org/Paul_Manafort> <http://example.org/was_charged_with> "tax evasion" .
-<http://example.org/Paul_Manafort> <http://example.org/was_charged_with> "foreign lobbying" .
-<http://example.org/Rick_Gates> <http://example.org/was_charged_with> "money laundering" .
-<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Paul_Manafort> .
-<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Michael_Cohen> .
-<http://example.org/Rick_Gates> <http://example.org/was_charged_with> "tax evasion" .
 <http://example.org/Donald_Trump> <http://example.org/pleaded_guilty_to> "lying to congress" .
-<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Rick_Gates> .
-<http://example.org/Paul_Manafort> <http://example.org/was_sentenced_to> "prison" .
-<http://example.org/Rick_Gates> <http://example.org/pleaded_guilty_to> "conspiracy" .
-<http://example.org/Rick_Gates> <http://example.org/was_charged_with> "foreign lobbying" .
+<http://example.org/Paul_Manafort> <http://example.org/was_charged_with> "tax evasion" .
+<http://example.org/Rick_Gates> <http://example.org/was_charged_with> "money laundering" .
 <http://example.org/Mueller_Investigation> <http://example.org/was_led_by> <http://example.org/Robert_Mueller> .
-<http://example.org/Paul_Manafort> <http://example.org/was_convicted_for> "bank fraud" .
-<http://example.org/Rick_Gates> <http://example.org/pleaded_guilty_to> "lying to FBI" .
+<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/George_Papadopoulos> .
+<http://example.org/Paul_Manafort> <http://example.org/was_sentenced_to> "prison" .
+<http://example.org/Rick_Gates> <http://example.org/was_charged_with> "foreign lobbying" .
+<http://example.org/Rick_Gates> <http://example.org/pleaded_guilty_to> "conspiracy" .
+<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Michael_Cohen> .
+<http://example.org/Paul_Manafort> <http://example.org/pleaded_guilty_to> "conspiracy" .
+<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Rick_Gates> .
 <http://example.org/Paul_Manafort> <http://example.org/was_campaign_chairman_for> <http://example.org/Donald_Trump> .
-<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Roger_Stone> .
-<http://example.org/Paul_Manafort> <http://example.org/was_convicted_for> "tax fraud" .
-<http://example.org/Paul_Manafort> <http://example.org/negotiated> "plea agreement" .
-<http://example.org/Michael_Cohen> <http://example.org/was_attorney> <http://example.org/Donald_Trump> .
 <http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Michael_Flynn> .
 <http://example.org/Paul_Manafort> <http://example.org/was_charged_with> "money laundering" .
+<http://example.org/Rick_Gates> <http://example.org/was_charged_with> "tax evasion" .
+<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Roger_Stone> .
+<http://example.org/Paul_Manafort> <http://example.org/was_charged_with> "foreign lobbying" .
+<http://example.org/Paul_Manafort> <http://example.org/was_convicted_for> "bank fraud" .
+<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/Paul_Manafort> .
+<http://example.org/Paul_Manafort> <http://example.org/negotiated> "plea agreement" .
+<http://example.org/Rick_Gates> <http://example.org/pleaded_guilty_to> "lying to FBI" .
 <http://example.org/Paul_Manafort> <http://example.org/was_business_partner_of> <http://example.org/Rick_Gates> .
-<http://example.org/Paul_Manafort> <http://example.org/pleaded_guilty_to> "conspiracy" .
-<http://example.org/Mueller_Investigation> <http://example.org/involved> <http://example.org/George_Papadopoulos> .
-
+<http://example.org/Paul_Manafort> <http://example.org/was_convicted_for> "tax fraud" .
+<http://example.org/Michael_Cohen> <http://example.org/was_attorney> <http://example.org/Donald_Trump> .

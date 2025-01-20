@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/Paul_Manafort">
+    <ns1:was_business_partner_of rdf:resource="http://example.org/Rick_Gates"/>
+    <ns1:was_campaign_chairman_for rdf:resource="http://example.org/Donald_Trump"/>
+    <ns1:was_charged_with>money laundering</ns1:was_charged_with>
+    <ns1:was_charged_with>tax evasion</ns1:was_charged_with>
+    <ns1:was_charged_with>foreign lobbying</ns1:was_charged_with>
+    <ns1:was_convicted_for>bank fraud</ns1:was_convicted_for>
+    <ns1:was_convicted_for>tax fraud</ns1:was_convicted_for>
+    <ns1:pleaded_guilty_to>conspiracy</ns1:pleaded_guilty_to>
+    <ns1:was_sentenced_to>prison</ns1:was_sentenced_to>
+    <ns1:negotiated>plea agreement</ns1:negotiated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Rick_Gates">
+    <ns1:was_charged_with>money laundering</ns1:was_charged_with>
+    <ns1:was_charged_with>tax evasion</ns1:was_charged_with>
+    <ns1:was_charged_with>foreign lobbying</ns1:was_charged_with>
+    <ns1:pleaded_guilty_to>conspiracy</ns1:pleaded_guilty_to>
+    <ns1:pleaded_guilty_to>lying to FBI</ns1:pleaded_guilty_to>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Mueller_Investigation">
+    <ns1:was_led_by rdf:resource="http://example.org/Robert_Mueller"/>
+    <ns1:involved rdf:resource="http://example.org/Paul_Manafort"/>
+    <ns1:involved rdf:resource="http://example.org/Rick_Gates"/>
+    <ns1:involved rdf:resource="http://example.org/George_Papadopoulos"/>
+    <ns1:involved rdf:resource="http://example.org/Michael_Flynn"/>
+    <ns1:involved rdf:resource="http://example.org/Michael_Cohen"/>
+    <ns1:involved rdf:resource="http://example.org/Roger_Stone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Donald_Trump">
+    <ns1:pleaded_guilty_to>lying to congress</ns1:pleaded_guilty_to>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Michael_Cohen">
+    <ns1:was_attorney rdf:resource="http://example.org/Donald_Trump"/>
+  </rdf:Description>
+</rdf:RDF>

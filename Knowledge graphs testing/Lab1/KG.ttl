@@ -1,0 +1,31 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:Mueller_Investigation ns1:involved ns1:George_Papadopoulos,
+        ns1:Michael_Cohen,
+        ns1:Michael_Flynn,
+        ns1:Paul_Manafort,
+        ns1:Rick_Gates,
+        ns1:Roger_Stone ;
+    ns1:was_led_by ns1:Robert_Mueller .
+
+ns1:Michael_Cohen ns1:was_attorney ns1:Donald_Trump .
+
+ns1:Paul_Manafort ns1:negotiated "plea agreement" ;
+    ns1:pleaded_guilty_to "conspiracy" ;
+    ns1:was_business_partner_of ns1:Rick_Gates ;
+    ns1:was_campaign_chairman_for ns1:Donald_Trump ;
+    ns1:was_charged_with "foreign lobbying",
+        "money laundering",
+        "tax evasion" ;
+    ns1:was_convicted_for "bank fraud",
+        "tax fraud" ;
+    ns1:was_sentenced_to "prison" .
+
+ns1:Donald_Trump ns1:pleaded_guilty_to "lying to congress" .
+
+ns1:Rick_Gates ns1:pleaded_guilty_to "conspiracy",
+        "lying to FBI" ;
+    ns1:was_charged_with "foreign lobbying",
+        "money laundering",
+        "tax evasion" .
+

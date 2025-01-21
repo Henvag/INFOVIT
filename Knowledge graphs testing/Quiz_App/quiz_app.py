@@ -9,6 +9,12 @@ from PyQt6.QtGui import QDesktopServices
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 from quiz_manager import QuizManager
 
+def resource_path(relative_path):
+    # This function ensures your PyInstaller build can find files in the dist folder
+    if hasattr(sys, "_MEIPASS"):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.dirname(__file__), relative_path)
+
 class QuizApp(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -16,9 +22,8 @@ class QuizApp(QMainWindow):
         self.setGeometry(100, 100, 800, 600)
 
         # Load custom font
-        font_path = os.path.join(os.path.dirname(__file__), 'fonts', 'ProductSans-Black.ttf')
+        font_path = resource_path('fonts/ProductSans-Black.ttf')
         font_id = QFontDatabase.addApplicationFont(font_path)
-
         if font_id != -1:
             font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
             print(f"Successfully loaded font: {font_family}")
@@ -32,7 +37,6 @@ class QuizApp(QMainWindow):
                 background-color: #1F2334;
                 color: white;
             }
-
             QLabel {
                 color: #ffffff;
                 font-size: 14px;
@@ -106,8 +110,8 @@ class QuizApp(QMainWindow):
             }
         """)
 
-        # Set custom dock icon for macOS and window icon for Windows
-        icon_path = os.path.join(os.path.dirname(__file__), 'quiz.png')
+        # Icon setup
+        icon_path = resource_path('quiz.png')
         if os.path.exists(icon_path):
             self.setWindowIcon(QIcon(icon_path))
             QApplication.setWindowIcon(QIcon(icon_path))
@@ -130,19 +134,18 @@ class QuizApp(QMainWindow):
 
         # Top layout for logo
         top_layout = QHBoxLayout()
-        top_layout.addStretch()  # Pushes the logo to the right
+        top_layout.addStretch()
 
         # Logo in the upper right corner
         logo_button = QPushButton()
         logo_button.setStyleSheet("border: none; background: none;")
-        logo_pixmap = QPixmap(os.path.join(os.path.dirname(__file__), 'henvagdevborder.jpg'))
+        logo_pixmap = QPixmap(resource_path('henvagdevborder.jpg'))
         scaled_pixmap = logo_pixmap.scaled(100, 100, Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
         logo_icon = QIcon(scaled_pixmap)
         logo_button.setIcon(logo_icon)
         logo_button.setIconSize(scaled_pixmap.size())
         logo_button.clicked.connect(self.open_henvag_link)
         top_layout.addWidget(logo_button, alignment=Qt.AlignmentFlag.AlignRight)
-
         main_layout.addLayout(top_layout)
 
         # Title for the toggle
@@ -194,7 +197,7 @@ class QuizApp(QMainWindow):
         self.question_label.setWordWrap(True)
         main_layout.addWidget(self.question_label)
 
-        # Options frame - now dynamic
+        # Dynamic options
         self.options_frame = QFrame()
         self.options_layout = QVBoxLayout()
         self.button_group = QButtonGroup()
@@ -213,12 +216,13 @@ class QuizApp(QMainWindow):
         QDesktopServices.openUrl(QUrl("https://henvag.github.io"))
 
     def load_questions(self, filename):
-        self.quiz_manager.load_questions(filename)
-        self.questions = self.quiz_manager.questions
-
-        if not self.questions:
-            QMessageBox.critical(self, "Error", f"No questions found in {filename}")
+        file_path = resource_path(filename)
+        print(f"Attempting to load questions from: {file_path}")
+        if not os.path.exists(file_path):
+            QMessageBox.critical(self, "Error", f"No questions found in {file_path}")
             sys.exit(1)
+        self.quiz_manager.load_questions(file_path)
+        self.questions = self.quiz_manager.questions
 
         self.current_question = 0
         self.score = 0
@@ -249,13 +253,11 @@ class QuizApp(QMainWindow):
 
         self.question_label.setText(question.question)
 
-        # Clear existing options
         for button in self.option_buttons:
             self.options_layout.removeWidget(button)
             button.deleteLater()
         self.option_buttons.clear()
 
-        # Create new options
         for i, option in enumerate(question.options):
             radio = QRadioButton(option)
             radio.setStyleSheet("""
@@ -271,28 +273,20 @@ class QuizApp(QMainWindow):
             super().__init__(parent)
             self.setWindowTitle("Correct! ✓")
             self.setText("That's the right answer!")
-
-            # List of Lottie animation URLs
             lottie_urls = [
                 "https://cdn.lottielab.com/l/5Bpozs48ozT8HY.html",
                 "https://cdn.lottielab.com/l/BNhnMu53BdL9dv.html",
                 "https://cdn.lottielab.com/l/4sZkhwrR2h7VJZ.html"
             ]
-
-            # Randomly select a Lottie animation URL
             selected_url = random.choice(lottie_urls)
-
-            # Add QWebEngineView to display LottieLab animation
             web_view = QWebEngineView()
             web_view.setUrl(QUrl(selected_url))
-            web_view.setFixedSize(200, 150)  # Set a smaller size for the web view
+            web_view.setFixedSize(200, 150)
             self.layout().addWidget(web_view, self.layout().rowCount(), 0, 1, self.layout().columnCount())
-
-            # Center the "Ok" button and make it smaller
             button_layout = QHBoxLayout()
             button_layout.addStretch()
             ok_button = self.addButton(QMessageBox.StandardButton.Ok)
-            ok_button.setFixedSize(60, 30)  # Set a smaller size for the button
+            ok_button.setFixedSize(60, 30)
             button_layout.addWidget(ok_button)
             button_layout.addStretch()
             self.layout().addLayout(button_layout, self.layout().rowCount(), 0, 1, self.layout().columnCount())
@@ -302,28 +296,20 @@ class QuizApp(QMainWindow):
             super().__init__(parent)
             self.setWindowTitle("Wrong ✗")
             self.setText("That's the wrong answer!")
-
-            # List of Lottie animation URLs for wrong answers
             lottie_urls = [
                 "https://cdn.lottielab.com/l/82XAVyJm6pzKzm.html",
                 "https://cdn.lottielab.com/l/7Ehs8q7naRKWKt.html",
                 "https://cdn.lottielab.com/l/9N8mcdFKp7FU3C.html"
             ]
-
-            # Randomly select a Lottie animation URL
             selected_url = random.choice(lottie_urls)
-
-            # Add QWebEngineView to display LottieLab animation
             web_view = QWebEngineView()
             web_view.setUrl(QUrl(selected_url))
-            web_view.setFixedSize(200, 150)  # Set a smaller size for the web view
+            web_view.setFixedSize(200, 150)
             self.layout().addWidget(web_view, self.layout().rowCount(), 0, 1, self.layout().columnCount())
-
-            # Center the "Ok" button, make it smaller, and red
             button_layout = QHBoxLayout()
             button_layout.addStretch()
             ok_button = self.addButton(QMessageBox.StandardButton.Ok)
-            ok_button.setFixedSize(60, 30)  # Set a smaller size for the button
+            ok_button.setFixedSize(60, 30)
             ok_button.setStyleSheet("background-color: red; color: white;")
             button_layout.addWidget(ok_button)
             button_layout.addStretch()
@@ -339,15 +325,11 @@ class QuizApp(QMainWindow):
         if selected == question.correct:
             self.score += 0.5
             self.option_buttons[selected].setStyleSheet("QRadioButton { color: #90EE90; font-weight: bold; }")
-
-            # Use the custom message box with LottieLab animation for correct answers
             msg_box = self.CustomMessageBox(self)
             msg_box.exec()
         else:
             self.option_buttons[selected].setStyleSheet("QRadioButton { color: #FF6B6B; }")
             self.option_buttons[question.correct].setStyleSheet("QRadioButton { color: #90EE90; font-weight: bold; }")
-
-            # Use the custom message box with LottieLab animation for wrong answers
             msg_box = self.CustomWrongMessageBox(self)
             msg_box.exec()
 
@@ -359,13 +341,16 @@ class QuizApp(QMainWindow):
 
     def show_final_score(self):
         percentage = (self.score / len(self.questions)) * 100
-        QMessageBox.information(self, "Quiz Complete",
-                              f"Final Score: {self.score}/{len(self.questions)} ({percentage:.1f}%)")
+        QMessageBox.information(
+            self,
+            "Quiz Complete",
+            f"Final Score: {self.score}/{len(self.questions)} ({percentage:.1f}%)"
+        )
         self.close()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    icon_path = os.path.join(os.path.dirname(__file__), 'quiz.png')
+    icon_path = resource_path('quiz.png')
     if os.path.exists(icon_path):
         app.setWindowIcon(QIcon(icon_path))
     quiz = QuizApp()

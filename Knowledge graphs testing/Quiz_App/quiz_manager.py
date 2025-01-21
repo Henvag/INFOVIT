@@ -2,6 +2,8 @@ from dataclasses import dataclass
 from typing import List
 import json
 import random
+import os
+import sys
 
 @dataclass
 class Question:
@@ -29,9 +31,18 @@ class Question:
         self.options = [option for index, option in options_with_index]
         self.correct = next(index for index, (original_index, _) in enumerate(options_with_index) if original_index == self.correct)
 
+def resource_path(relative_path):
+    if getattr(sys, 'frozen', False):
+        # Running in a bundle
+        base_path = sys._MEIPASS
+    else:
+        # Running in normal Python environment
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(base_path, relative_path)
+
 class QuizManager:
     def __init__(self, filename='info216_2023exam_questions.json'):
-        self.filename = filename
+        self.filename = resource_path(filename)
         self.questions = []
         self.load_questions()
 

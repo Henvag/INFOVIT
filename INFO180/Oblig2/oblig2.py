@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
-
+from matplotlib import pyplot as plt
 # Read the data from the csv file (setting header to infer sets the first row as column names)
 # Data has 1000 (instances) rows and 7 columns (attributes), we see this by printing the data shape
 data = read_csv('party_data.csv', header="infer")
@@ -110,6 +110,7 @@ model_names = ['k-NN (k=3)', 'k-NN (k=5)', 'k-NN (k=11)', 'k-NN (k=17)', 'Logist
 best_model = model_names[best_model_index]
 
 print(f'The best model for minimizing party killers is: {best_model} with a precision of {best_precision:.2f}')
+
 
 
 

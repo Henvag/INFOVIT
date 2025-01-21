@@ -1,0 +1,598 @@
+[
+  {
+    "question": "What is true about the Linked Open Data Cloud?",
+    "options": [
+      "LOD Cloud is a global search engine for knowledge graphs",
+      "LOD Cloud is a hosted triple store solution for semantic data",
+      "LOD Cloud consists of semantic datasets on the web that are connected by shared identifiers",
+      "LOD Cloud is a vocabulary for connecting data sets over the web of data"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+  {
+    "question": "Which is NOT a core LOD principle?",
+    "options": [
+      "URIs return information that contain URIs of related resources",
+      "URIs return information about resources on standard semantic formats",
+      "Use URIs that are language-independent",
+      "Use URIs that answer to HTTP requests"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+  {
+    "question": "Which is NOT a best practice for data provisioning in the LOD cloud?",
+    "options": [
+      "Provide licensing metadata (e.g., CC)",
+      "Link proprietary (own) vocabulary terms to other vocabularies",
+      "Use terms from widely deployed vocabularies",
+      "Use URIs that are standardised by the W3C",
+      "Provide provenance metadata (e.g., PROV)",
+      "Refer to additional access methods (e.g., SPARQL)"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+  },
+  {
+    "question": "When did the LOD cloud start to form?",
+    "options": [
+      "From 2012",
+      "From 2007",
+      "From 1998",
+      "From 2002"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+  },
+  {
+    "question": "Which of these semantic datasets were central hubs in the first two years of the LOD cloud?",
+    "options": [
+      "DBpedia, Freebase and Wikidata",
+      "DBpedia, FOAF and GeoNames",
+      "Dublin Core, FOAF and SKOS",
+      "Microdata, schema.org and Amazon"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+  },
+  {
+    "question": "What does the initialism AAA stand for?",
+    "options": [
+      "anyone can link anything about any topic",
+      "anyone can add anything from anywhere",
+      "anyone can say anything about any topic"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "It is most precise to say that an RDF resource can be",
+    "options": [
+      "any of these",
+      "a concept",
+      "a material phenomenon (including people and artefacts)",
+      "an information resource",
+      "a property"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "According to RDFS semantics, a resource",
+    "options": [
+      "must have exactly one rdf:type",
+      "may or may not have an rdf:type",
+      "always has at least one rdf:type",
+      "always has rdfs:Class as its rdf:type"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "Which resources can be used in a rdf:List?",
+    "options": [
+      "rdf:rest, rdf:first, rdf:nil",
+      "rdf:_1, rdf:_2, rdf:_3",
+      "rdf:first, rdf:last, rdf:nil",
+      "rdfs:member"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "It is true about an rdf:List (collection) that",
+    "options": [
+      "It is easy to add new members",
+      "New members cannot be added without deleting triples",
+      "It cannot contain the same resource several times",
+      "It is typically used to represent alternatives"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "What is NOT true about blank nodes",
+    "options": [
+      "Blank nodes can have a local identifier inside a graph",
+      "Blank nodes are supported by all RDF technologies",
+      "Blank nodes can be objects in triples.",
+      "Blank nodes have no IRI"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+  },
+
+
+  {
+    "question": "Which of these statements are supported by the basic RDF (not RDFS) semantics?",
+    "options": [
+      "A Motorbike is a Vehicle",
+      "Legally owning a gun means owning a licensed weapon",
+      "The object in a hasWorkHomepage triple is a URL",
+      "Everything that is used as a predicate in a triple is an rdf:Property",
+      "The subject in a hasLicensePlate triple is a Vehicle"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "RDF Schema (RDFS) is NOT",
+    "options": [
+      "The foundation for SKOS and OWL",
+      "Used for defining other vocabularies",
+      "Used to query RDF graphs",
+      "A small RDF-based vocabulary for more expressive graphs"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "What is true about axioms in RDFS?",
+    "options": [
+      "They are based on description logic (DL)",
+      "They must be added by the user before executing entailment rules",
+      "They are built into the semantics of RDFS",
+      "They are not a part of the RDFS semantics"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "What is true about RDFS resource classes?",
+    "options": [
+      "Classes are templates for instantiating objects",
+      "Resources have the same RDFS class throughout their lifetime",
+      "The properties of a resource determine its RDFS class",
+      "The properties of a resource are only visible to its neighbours",
+      "They provide information hiding"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "What is NOT a reason that RDFS has resource classes?",
+    "options": [
+      "The type (class) of a resource is an important part of its semantics",
+      "Classes are important for defining and using other RDFS concepts",
+      "We can describe the class formally using RDFS and OWL DL",
+      "RDFS classes restrict which properties RDF resources can have"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "In RDFS which property is used to refer to further information?",
+    "options": [
+      "rdfs:comment",
+      "rdfs:label",
+      "rdfs:seeAlso",
+      "rdfs:altLabel"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "What is true about a triple with the form (ex:Person ex:hasPassportNumber ex:PassportNumber)",
+    "options": [
+      "The range of the property hasPassportNumber is PassportNumber",
+      "The domain of the property hasPassportNumber is PassportNumber",
+      "The range of the property hasPassportNumber is Person"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+  },
+
+
+  {
+    "question": "An RDFS container can not",
+    "options": [
+      "Be an rdfs:Alt, rdfs:Bag or rdfs:Seq",
+      "Be extended without deleting triples",
+      "Be an rdf:List",
+      "Have duplicate members"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "Which statement can be expressed in plain RDFS?",
+    "options": [
+      "The BirthNumber of a Person is unique",
+      "A class is a negation of another class",
+      "A class is a union (or intersection) of other classes",
+      "Everyone who receives medical treatment is a patient",
+      "A FootballTeam has 11 players, a VolleyballTeam only 6"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "Which statement can be expressed in plain RDFS?",
+    "options": [
+      "A StringQuartet has two violins but only one viola and one cello",
+      "Every ancestor of an ancestor is an ancestor too",
+      "Everyone who is a goalkeeper for a team is a player for that team.",
+      "Two individuals with different URIs are actually different",
+      "A Republic has exactly one President"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+  },
+
+  {
+    "question": "According to the Open World Assumption (OWA), can we assume that the information available at any point is all the information available?",
+    "options": [
+      "Yes, if we use the information immediately",
+      "Only if the sources are trusted",
+      "No, we may not"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What does the Non-unique Naming Assumption mean for knowledge graphs?",
+    "options": [
+      "URIs cannot be used to name web resources.",
+      "The same resource might be referred to using different URIs by different people.",
+      "The same RDF resource is always referred to using the same URI by everyone."
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "Which properties defined by RDF and RDFS are reused in OWL?",
+    "options": [
+      "rdf:type, rdf:sameAs, rdfs:domain",
+      "rdf:type, rdfs:subPropertyOf, rdf:Property",
+      "rdfs:range, rdfs:Resource, rdf:Thing"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "In OWL, the statement \"Herbivores only eat Plants\" is most similar to",
+    "options": [
+      "An existential property restriction",
+      "A cardinality restriction",
+      "A universal property restriction",
+      "A complement class"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+  {
+    "question": "Which statement is most precise about the owl:inverseOf property?",
+    "options": [
+      "owl:inverseOf is used for properties that are always each other's reverses",
+      "owl:inverseOf is used for classes that can be each other's negations",
+      "owl:inverseOf is used for classes that are necessarily each other's negations",
+      "owl:inverseOf is used for properties that may be each other's reverses"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "owl:disjointWith can be used for properties",
+    "options": [
+      "Always true",
+      "Always false",
+      "owl:disjointWith can only be used object properties"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What is false about owl:Nothing?",
+    "options": [
+      "It can used to represent that something is not the case",
+      "It can be the rdf:type of an OWL individual",
+      "It corresponds to the bottom concept in DL",
+      "It corresponds to False in logic"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "How can you state that something is not the case in plain DL (not OWL DL)?",
+    "options": [
+      "Negative property assertion",
+      "Contradiction",
+      "Subsumption of bottom",
+      "Disjunctiveness"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What are HermiT and Pellet examples of?",
+    "options": [
+      "Graph APIs",
+      "Triple stores",
+      "Ontology editors",
+      "Inference engines"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What is true about description logic?",
+    "options": [
+      "It can be written in several different ways, including in OWL",
+      "It uses the same notation as first-order predicate logic",
+      "It has several variants, all of them semi-decidable",
+      "It is usually represented visually in the form of diagrams"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "Given the property :belongsTo (:city :belongsTo :country), which SPARQL pattern gives us the cities of a given country?",
+    "options": [
+      ":country ^:belongsTo ?city .",
+      ":country :belongsTo+ ?city .",
+      ":country !:belongsTo ?city ."
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+  {
+    "question": "Given the properties :hasDaughter and :hasSon, which SPARQL pattern gives us all the sons and daughters of a person?",
+    "options": [
+      "?person : hasDaughter | :hasSon ?child",
+      "?person : hasDaughter OR :hasSon ?child",
+      "?person : hasDaughter AND :hasSon ?child"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "If we have the following SPARQL sentence and we want to see only those products that give a revenue higher than 20000, which SPARQL clause do we need to add at the end?\n\nSELECT ?product (SUM(?price) AS ?revenue) WHERE {\n?product ex:hasSold ?price .\n}\nGROUP BY ?product",
+    "options": [
+      "FILTER (?revenue > 20000)",
+      "WHERE (?revenue > 20000)",
+      "HAVING (?revenue > 20000)"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "Which of the following is not a SPARQL query type?",
+    "options": [
+      "ASK",
+      "CONSTRUCT",
+      "DESCRIBE",
+      "JOIN"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+},
+
+
+  {
+    "question": "Wikidata today gets most of its data from",
+    "options": [
+      "Wikipedia",
+      "User-generated content",
+      "DBpedia",
+      "Natural Language Processing (NLP)"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What is correct about Wikidata?",
+    "options": [
+      "Wikidata contains structured data",
+      "Wikidata is older than DBpedia",
+      "Wikidata stores all its data as RDF internally",
+      "Wikidata is derived from Wikipedia"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What is correct about DBpedia?",
+    "options": [
+      "DBpedia is derived from Wikipedia",
+      "DBpedia uses numeric identifiers for resources and properties",
+      "DBpedia can be edited by humans",
+      "DBpedia contains much more information than Wikidata"
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What is correct about GeoNames?",
+    "options": [
+      "GeoNames Is a semantic encyclopaedia like Wikipedia for geology terms",
+      "GeoNames is vocabulary of geo-spatial concepts like latitude, longitude and altitude",
+      "GeoNames is designed for representing geospatial information about cities, countries, states, continents, rivers …"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+
+  {
+    "question": "What is correct about WordNet?",
+    "options": [
+      "WordNet is an opensource semantic network for NLP projects",
+      "WordNet is an multilingual translation semantic service",
+      "WordNet is an electronic open-source dictionary"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+
+  {
+    "question": "The Dublin Core (DC) vocabulary is used for",
+    "options": [
+      "Describing data privacy policies",
+      "Describing web resources and physical resources",
+      "Describing governmental and regional organizations"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "The FOAF vocabulary is not used for",
+    "options": [
+      "describing things that people can do and social web sites",
+      "describing people, the links between them",
+      "describing peoples emotions and feelings"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "The Geo (WGS84) vocabulary is used",
+    "options": [
+      "for representing cities, countries, states, continents, rivers, and so on",
+      "for representing geology and earth science terms",
+      "for representing latitude, longitude and altitude"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+  {
+    "question": "Important properties in the Event ontology are",
+    "options": [
+      "related_event, broader_event, narrower_event, see_also",
+      "product, agent, offer, price, customer",
+      "before, after, overlap, meet",
+      "place, time, factor, agent, sub_event"
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "SIOC is a vocabulary / ontology for",
+    "options": [
+      "Representing the context and origin of semantic information",
+      "Representing classification schemas such as library catalogues",
+      "Representing information originating from social media",
+      "Representation of security information online to prevent cybercrime"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "What is true about schema.org?",
+    "options": [
+      "It is a community effort to align the ontologies behind DBpedia, Wikidata and other datasets",
+      "It is backed by commercial companies and targets electronic commerce",
+      "It is a global effort to unify the world's library catalogues",
+      "It is backed by UNESCO and targets the cultural heritage domain"
+    ],
+    "correct": 1,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "Which is not a reserved keyword in JSON-LD?",
+    "options": [
+      "@value: signifies that a value is a literal",
+      "@type: signifies that the JSON object with the @type key has a particular RDF type (or several types)",
+      "@rule: signifies an entailment rule that applies to the object",
+      "@context: signifies a JSON object that contains the context (or semantic mapping) for the other objects in the same JSON array",
+      "@id: signifies that the JSON object with the @id key is identified by a particular URI"
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+},
+
+
+  {
+    "question": "When talking about graph embeddings, relation prediction means that",
+    "options": [
+      "Given two nodes, to find edge types that are candidates to form a plausible triple.",
+      "Given a node, determine whether it plausibly represents a relation or not.",
+      "Given two nodes and an edge type, to decide whether they form a plausible triple.",
+      "Given a node, to find semantically similar nodes."
+    ],
+    "correct": 0,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "When talking about graph embeddings, link prediction means that\n(Here, plausible means \"likely to be true.\")",
+    "options": [
+      "Given two nodes and an edge type, to decide whether they form a plausible triple.",
+      "Given two nodes, to find all property paths between them.",
+      "Given a node, to find semantically similar nodes.",
+      "Given a node and an edge type, to decide nodes that are candidates to form a plausible triple."
+    ],
+    "correct": 3,
+    "topic": "INFO216"
+},
+
+  {
+    "question": "When talking about graph embeddings, triple classification means that\n(Here, plausible means \"likely to be true.\")",
+    "options": [
+      "Given two nodes, to find edge types that are candidates to form a plausible triple.",
+      "Given a node, to find semantically similar nodes.",
+      "Given two nodes and an edge type, to decide whether they form a plausible triple.",
+      "Given a node and an edge type, to find nodes that are candidates to form a plausible triple."
+    ],
+    "correct": 2,
+    "topic": "INFO216"
+}
+
+
+
+
+
+]

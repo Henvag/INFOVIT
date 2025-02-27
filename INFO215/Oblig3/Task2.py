@@ -29,12 +29,12 @@ def crawl(url):
     links = driver.find_elements(By.XPATH, "//a[@href]")
     for link in links:
         href = link.get_attribute("href")
-        if href.startswith("https://www.nikt2024.no/") and href not in visited_urls:
+        if href.startswith("https://sites.google.com/view/nikt2024?usp=sharing") and href not in visited_urls:
             crawl(href)
 
 
 # Start crawling from the main page
-start_url = "https://www.nikt2024.no/"
+start_url = "https://sites.google.com/view/nikt2024?usp=sharing"
 crawl(start_url)
 
 # Close the WebDriver
